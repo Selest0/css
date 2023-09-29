@@ -570,7 +570,6 @@ background-color: #fecfb3;
     border-color: #dbb096;
     border-radius: 10px;
 }
-}
 
 @media (max-width: 900px) {
 
@@ -757,7 +756,6 @@ div#app::-webkit-scrollbar {
     width: 48px;
     height: 48px;
     background: url(https://i1.beon.fun/24/36/3624/45/825945/icons8-sobachiy-sled-48.png) no-repeat center / 40px;
-}
 }
 
 @media (max-width: 770px) {
