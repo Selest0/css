@@ -763,8 +763,3 @@ div#app::-webkit-scrollbar {
     width: 100%;
     overflow-y: hidden;
 }
-
-  body {
-    text-align: center;
-    background: aqua !important;
-}
