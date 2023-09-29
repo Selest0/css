@@ -1,0 +1,193 @@
+@media (max-width: 900px) {
+
+.datebg {
+    text-align: right;
+}
+
+.post-title {
+    text-align: right;
+}
+
+div#app {
+    overflow: auto;
+    padding-top: 60px;
+    border-radius: 20px;
+}
+
+div.left-menu {
+    position: unset;
+    width: 100%;
+    border-top: unset;
+}
+
+body {
+    margin: 10px;
+    width: calc(100% - 20px);
+    height: calc(100% - 20px);
+}
+
+.navbar-brand {
+    top: 20px;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    margin: 0px 0px 0px -20px;
+}
+
+.content {
+position: unset;
+    width: 100%;
+    height: auto;
+border: unset;
+}
+
+.hamburger-menu {
+    display: block;
+    position: fixed;
+    background: #ffdfcc;
+    left: 10px;
+    top: 9px;
+    width: calc(100% - 20px);
+    height: 60px;
+    z-index: 1;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom: 1px solid #dbb096;
+    box-shadow: 0px 0px 1px 0px #b48a6f;
+}
+
+.crumbs {
+    position: unset;
+    width: 100%;
+    height: unset;
+    max-height: unset;
+    font-size: 14px;
+    border-bottom: 1px solid #dbb096;
+    border-left: unset;
+    border-top: unset;
+    border-radius: unset;
+}
+
+.left-menu > div.left-menu__user-notification {
+    background: #fecfb3;
+    border-radius: 20px;
+    margin: 20px 10px 40px 10px;
+    border: 1px solid #dbb096;
+    padding: 10px;
+}
+
+.left-menu h3 {
+    margin: -20px auto 4px auto !important;
+    background: transparent;
+    background-color: #fed7bf !important;
+}
+
+.left-menu > div.mobile_open_menu {
+    padding-top: 30px;
+}
+
+.left-menu > div.mobile_open_menu > h3 {
+    color: #b2876b !important;
+    font-weight: 100;
+    display: flex;
+    flex-direction: column;
+height: unset;
+}
+
+.blog__about > h3 {
+    position: unset;
+    background: transparent !important;
+    margin: 0px auto 4px auto !important;
+}
+
+p.left-menu-text {
+    margin: 0px;
+    padding: 0;
+}
+
+.post-content .post-avatar {
+    margin: -10px 0px 0px -5px !important;
+    min-width: 90px;
+    min-height: 80px;
+}
+
+.post-content .post-avatar:before {
+    z-index: 0;
+    opacity: .5;
+}
+
+.post-content .post-text {
+    padding: 5px;
+}
+
+.post-content .post-avatar a {
+    width: 80px;
+    height: 80px;
+}
+
+.post-content .post-avatar:before {
+    width: 84px;
+    height: 48px;
+}
+.post-content .post-avatar img {
+    border-radius: 50%;
+    min-width: 80px;
+    max-width: 80px;
+    min-height: 80px;
+    max-height: 80px;
+}
+
+.navbar + .crumbs > .pagination > a:last-child {
+    right: 2px;
+    top: 62px;
+}
+
+.navbar + .crumbs > .pagination > a:nth-child(2) {
+    left: 2px;
+    top: 62px;
+}
+
+.textarea-wrapper {
+    display: block;
+}
+
+.avatar-select-list {
+    width: 100%;
+}
+
+#newpostform .container-fluid .row {
+    display: block !important;
+}
+
+.post-opt.col-12.col-md-6 a, .post-opt.col-12.col-md-6 span {
+    font-size: 14px;
+}
+
+.post-opt.col-12.col-md-6 .comments_count span {
+    font-size: 0px !important;
+}
+
+div#app::-webkit-scrollbar {
+    width: 0px;
+}
+
+
+.comment-box .comment-content {
+    margin: 20px 0px;
+}
+
+.navbar-brand:after {
+    content: '';
+    position: absolute;
+    margin: -4px 0 0 10px;
+    width: 48px;
+    height: 48px;
+    background: url(https://i1.beon.fun/24/36/3624/45/825945/icons8-sobachiy-sled-48.png) no-repeat center / 40px;
+}
+}
+
+@media (max-width: 770px) {
+.avatar-select-list {
+    width: 100%;
+    overflow-y: hidden;
+}
