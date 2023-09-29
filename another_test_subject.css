@@ -184,10 +184,18 @@ div#app::-webkit-scrollbar {
     height: 48px;
     background: url(https://i1.beon.fun/24/36/3624/45/825945/icons8-sobachiy-sled-48.png) no-repeat center / 40px;
 }
+
+    body {
+        background: aqua;
+}
 }
 
 @media (max-width: 770px) {
 .avatar-select-list {
     width: 100%;
     overflow-y: hidden;
+}
+
+        body {
+        background: red;
 }
