@@ -1,3 +1,124 @@
+.pagination {
+    float: unset;
+}
+
+#beon-fnplayer {
+    width: auto;
+    box-shadow: inset 0 0px 0px 1px #6b6b6b;
+    height: 24px;
+    background: #7a7a7a;
+    margin: 12px;
+}
+
+.menu__item {
+    font-weight: 200;
+    color: #212121 !important;
+    padding: 2px 4px !important;
+}
+
+.menu__box { 
+    top: 51px;
+    height: calc(100% - 52px) !important;
+    background: #a6a6a6;
+    box-shadow: 0 0 2px 0px #353535;
+    border: 4px solid #7a7a7a;
+    padding: 0px 10px 0px 0px;
+    overflow: auto;
+}
+
+.menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {
+    background-color: #c9c9c9 !important;
+}
+
+.hamburger-menu {
+display: block !important;
+    position: fixed;
+    top: 1px;
+    right: 99px;
+    font-size: 0;
+    width: 50px;
+    height: 48px;
+    box-shadow: 0px 0px 0px 1px #6b6b6b;
+    padding: 12px;
+}
+
+.fas.fa-lock-open {
+    font-size: 10px;
+}
+
+.notifications__comments.d-none,  
+.left-menu__user-notification {
+    background: linear-gradient(180deg, #afafaf , #7a7a7a99) fixed;
+    margin: 0px 0 20px 0;
+    padding: 0px 0px 10px 0px;
+    box-shadow: inset 0 0 2px 0px #353535;
+    filter: saturate(0.5);
+}
+.notifications__comments.d-none a,  
+.left-menu__user-notification a {
+    padding-left: 10px;
+}
+
+div.crumbs {
+    padding: 4px;
+    padding-left: 10px;
+    background: #a7a7a7;
+    box-shadow: inset 0 0px 0px 1px #6b6b6b, 0 0px 1px 0px #474747 !important;
+}
+
+div.crumbs a, div.crumbs span {
+    color: #212121 !important;
+}
+
+.modal-open {
+    padding-right: 10px !important;
+}
+
+
+body::-webkit-scrollbar {
+    width: 10px;
+    background: #8c8c8c;
+    border-left: 1px solid #656565;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #7a7a7a;
+    box-shadow: inset 0px 0 2px 0px #343434;
+}
+
+
+
+.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none,
+.my-menu.for-mobile.d-none.d-md-inline {
+    top: 0;
+    position: fixed;
+    right: 49px;
+    font-size: 0;
+    width: 50px;
+    height: 48px;
+    background: url(https://i1.beon.fun/24/36/3624/57/836457/icons8-dvoynaya-strelka-vlevo-32.png) 
+    no-repeat center;
+    transform: rotate(-90deg);
+    box-shadow: 0px 0px 0px 1px #6b6b6b;
+}
+
+[onclick="window.scroll({top: 0,behavior: 'smooth'})"] {
+    position: fixed;
+    right: 0px;
+    top: 0;
+    z-index: 99;
+    font-size: 0;
+    width: 50px;
+    height: 48px;
+    background: url(https://i1.beon.fun/24/36/3624/57/836457/icons8-dvoynaya-strelka-vlevo-32.png) 
+    no-repeat center;
+    transform: rotate(90deg);
+    box-shadow: 0px 0px 0px 1px #6b6b6b;
+}
+
+
+
+
 .crumb-item {
     font-weight: 200;
     color: #ddd !important;
@@ -331,7 +452,7 @@ div, a, span {
 
 
 a { color: #ddd !important; }
-td, div, span { color: #212121 !important; }
+
 
 div.left-menu {
     border: none;
@@ -366,7 +487,7 @@ div.left-menu {
     height: 50px;
     width: 100%;
     z-index: 9;
-    box-shadow: 0 0 1px 0px #939393, 0 0 3px 0px #353535 !important;
+    box-shadow: 0 0 1px 0px #3b3b3b, 0 0 3px 0px #353535 !important;
 }
 
 div#app {
@@ -381,8 +502,6 @@ body {
 .user-drop-menu,
 span.comments_count span::before,
 .tag:before, .blog:before,
-.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none,
-.menu__btn,
 .user:before,
 [href="/design/disable"] img, 
 [src="/i/blog.png"],
@@ -395,9 +514,8 @@ span.comments_count span::before,
 .container .m2, .footer__infolinks.p-1, 
 #page__admincontact, #footer.p-1, 
 #page__rendertime, .crumbs:last-child,
-.left-menu__friends, .pc-menu, 
-[onclick="window.scroll({top: 0,behavior: 'smooth'})"], 
-.my-menu.for-mobile.d-none.d-md-inline {
+.left-menu__friends, .pc-menu
+{
      display: none !important;
 }
 
