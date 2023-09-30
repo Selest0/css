@@ -434,7 +434,6 @@ div, a, span {
     margin: 10px 10px 20px 10px !important;
 }
 
-
 .blog__about h3 + div img  {
     margin: 20px;
     box-shadow: -5px -5px 0 0 #6b6969, 1px 1px 0 0 #4f4f4f;
@@ -449,7 +448,6 @@ div, a, span {
     box-shadow: inset 0 0 2px 0px #353535;
     filter: saturate(0.5);
 }
-
 
 a { color: #ddd !important; }
 
@@ -495,7 +493,7 @@ div#app {
 }
 
 body {
-    background: linear-gradient(180deg, #4d4d4dc9, #c3c3c3e6) fixed, 
+    background: linear-gradient(180deg, #4d4d4dc9, #a7a7a7de) fixed, 
     url(https://i1.beon.fun/24/36/3624/24/835524/pagebg.png) fixed;
 }
 
