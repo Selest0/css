@@ -1,0 +1,423 @@
+.crumb-item {
+    font-weight: 200;
+    color: #ddd !important;
+    padding-left: 10px;
+}
+
+.row.w-100.mt-3 > div.post-opt.col-md-6 span {
+    font-size: 0; 
+} 
+
+.row.w-100.mt-3 > div.post-opt.col-md-6 span i.fas.fa-heart:before {
+    position: relative;
+}
+
+.comment-base .post-opt {
+    font-size: 0.75rem;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 100%;
+    float: right;
+}
+.comment-base .fa-heart:before {
+    position: unset;
+}
+.comment-base .post-likes-count {
+font-size: 0;
+}
+
+.comment-content .post-avatar {
+    margin: 0px 5px 0px 0px;
+}
+.comment-base .likebutton {
+    margin-top: 2px;
+}
+
+.comment-content {
+    background: #a6a6a67d;
+    box-shadow: 0 0 2px 0px #353535;
+    border: 2px solid #7a7a7a;
+    min-height: auto;
+    padding: 4px;
+    margin: 10px 10px 30px 10px !important;
+}
+
+.comment-base .mt-3 {
+    position: sticky;
+    top: 100%;
+    float: right;
+}
+
+.comment-row .fa-heart:before {
+    position: unset;
+}
+
+.comment-content .post-title-date {
+    padding-left: 0;
+}
+
+.row.w-100.mt-3 > div.post-opt.col-md-6 .likebutton i.fas,  .row.w-100.mt-3 .post-likes-count .fas {
+    width: 24px;
+    height: 16px;
+    padding: 0 !important;
+
+}
+
+span.comments_count a {
+    font-size: 14px;
+    content: '';
+    background: url(https://i1.beon.fun/24/36/3624/71/835871/icons8-tema-32.png) no-repeat center / 24px;
+    height: 24px;
+    display: block;
+    filter: contrast(0.5);
+    padding: 0px 40px 0px 0px;
+    margin: 0 0 0 -10px;
+    overflow: hidden;
+}
+
+.post-row  .post-text {
+    padding-top: 2px;
+}
+.textareabg {
+    background: #7a7a7a;
+    border: 4px solid #a6a6a6;
+    width: calc(100% - 20px);
+    padding: 10px !important;
+    margin: 10px !important;
+    box-shadow: 0 0 2px 0px #353535;
+}
+
+.quotation {
+    background: linear-gradient(90deg, #7a7a7a61, transparent);
+    font-size: 12px;
+    border-left: 3px solid #7a7a7a;
+}
+
+.row.w-100.mt-3 > div.post-opt.col-md-6 {
+    flex: 1;
+    margin: 4px 0px 0px 0px;
+    max-width: fit-content;
+}
+
+span.comments_count a span {
+    display: none;
+}
+
+
+.row.w-100.mt-3 div.post-opt.col-md-6.text-right {
+    flex: unset !important;
+    padding: 0px;
+    width: 35px;
+    margin: 0px 0px 6px 0px !important;
+}
+
+.row.w-100.mt-3 .post-likes-count {
+    font-size: 0;
+    padding-top: 4px;
+}
+
+
+.liked, .liked .fas {
+    color: #575757 !important;
+    filter: contrast(2);
+    text-shadow: 0 0 2px white;
+}
+
+.liked .fas {
+    transition: .5s;
+}
+
+.comment-base .mt-3 {
+    display: flex;
+}
+
+.fast-quote {
+    margin: 0;
+}
+
+.fa-heart:before {
+    font-size: 20px;
+    filter: contrast(0.5);
+    margin: -5px 0px 0px 0px;
+    position: absolute;
+}
+
+[href*="/edit"] {
+    content: url(https://i1.beon.fun/24/36/3624/74/835874/icons8-sozdat-novyy-32.png);
+    width: 24px;
+    filter: contrast(0.5);
+}
+
+[href^="//beon.fun/repost/"] {
+    content: url(https://i1.beon.fun/24/36/3624/73/835873/icons8-retweet-32.png);
+    width: 24px;
+    filter: contrast(0.5);
+}
+
+[href^="//beon.fun/repost/"] + span {
+    content: url(https://i1.beon.fun/24/36/3624/72/835872/icons8-musor-32.png);
+    width: 24px;
+    filter: contrast(0.5);
+}
+
+.fa-bookmark:before {
+    content: '';
+    background: url(https://i1.beon.fun/24/36/3624/8/835908/icons8-zakladka-lenta-32.png) no-repeat center / cover;
+    width: 24px;
+    height: 24px;
+    display: block;
+    filter: contrast(0.5);
+}
+
+.fa-exclamation-triangle:before {
+    content: '';
+    background: url(https://i1.beon.fun/24/36/3624/9/835909/icons8-oshibka-32.png) no-repeat center / cover;
+    width: 24px;
+    height: 24px;
+    display: block;
+    filter: contrast(0.5);
+}
+
+.fa-retweet:before {
+    content: '';
+    background: url(https://i1.beon.fun/24/36/3624/73/835873/icons8-retweet-32.png) no-repeat center / cover;
+    width: 24px;
+    height: 24px;
+    display: block;
+    filter: contrast(0.5);
+}
+
+.fa-trash-alt:before {
+    content: '';
+    background: url(https://i1.beon.fun/24/36/3624/72/835872/icons8-musor-32.png) no-repeat center / cover;
+    width: 24px;
+    height: 24px;
+    display: block;
+    filter: contrast(0.5);
+}
+
+.fa-quote-left:before {
+    content: '';
+    background: url(https://i1.beon.fun/24/36/3624/25/836025/icons8-citata-sprava-32.png) no-repeat center / cover;
+    width: 24px;
+    height: 24px;
+    display: block;
+    filter: contrast(0.5);
+}
+
+.fa-chevron-down:before {
+    color: #313131;
+}
+
+[src*="soundcloud.com/player/"] {
+    height: 26px;
+    background: #7a7a7a;
+    filter: grayscale(1);
+    border-radius: 10px;
+    padding: 3px;
+}
+
+.post-title {
+background: #7a7a7a;
+    font-size: 20px;
+    padding: 4px 10px 4px 2px;
+    box-shadow: 2px 0px 1px -1px #6f6f6fc4;
+    border-bottom-right-radius: 10px;
+    margin: 0px 5px 0px -1px;
+    max-width: calc(100% - 50px);
+    line-height: 1.1;
+}
+
+[src="//i.pinimg.com/originals/ce/2a/6e/ce2a6e72ff91ec1855d0bf5210b31001.gif"] {
+    box-shadow: 0 0px 4px -1px #000000;
+    border: 4px solid #000000;
+    border-image: linear-gradient(to left top,#4c80fb 10%, transparent 30%, transparent 70%, #cd4954 90%);
+    border-image-slice: 1;
+    padding: 0 !important; 
+    margin-top: 10px;
+}
+
+.blog__about [action="/search"] {
+    justify-content: center;
+    display: flex;
+    margin: 10px 0px 5px 0;
+}
+
+[action="/search"] input:first-child {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    padding: 0 10px;
+    font-size: 12px;
+    height: 20px;
+    border: 1px solid #7a7a7a;
+    background: #a8a8a8;
+}
+
+[action="/search"] [type=submit] {
+    font-size: 12px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background: linear-gradient(180deg, #a8a8a8, #979797);
+    border: 1px solid #7a7a7a;
+    height: 20px;
+    width: 60px;
+    cursor: pointer;
+}
+
+div, a, span { 
+    text-decoration: none !important; 
+}
+
+* {
+    outline: 0;
+}
+
+.row.w-100.mt-3 {
+    margin: 0px 0px -2px 12px;
+    background: #7a7a7a;
+    position: sticky;
+    top: 100%;
+    border-top-left-radius: 10px;
+    justify-content: space-between;
+    display: flex;
+    align-items: flex-end;
+    box-shadow: 0px 1px 0 #7a7a7a;
+}
+
+.post-avatar {
+    margin: 7px 5px 0px 5px;
+}
+.post-avatar img {
+    border: 4px solid #7a7a7a;
+} 
+
+.post-content > div {
+    margin: -2px 0px 0px 0px !important;
+}
+
+.datebg {
+    text-align: right;
+    font-size: 14px;
+    color: #313131 !important;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+.post-content {
+    background: #a6a6a6;
+    box-shadow: 0 0 2px 0px #353535;
+    border: 4px solid #7a7a7a;
+    min-height: auto;
+    padding: 0px 10px 0px 0px;
+    margin: 10px 10px 20px 10px !important;
+}
+
+
+.blog__about h3 + div img  {
+    margin: 20px;
+    box-shadow: -5px -5px 0 0 #6b6969, 1px 1px 0 0 #4f4f4f;
+}
+
+.left-menu a  { color: #212121 !important; }
+
+.left-menu [class^="blog__"] {
+    background: linear-gradient(180deg, #afafaf , #7a7a7a99) fixed;
+    margin: 0px 0 20px 0;
+    padding: 0px 0px 10px 0;
+    box-shadow: inset 0 0 2px 0px #353535;
+    filter: saturate(0.5);
+}
+
+
+a { color: #ddd !important; }
+td, div, span { color: #212121 !important; }
+
+div.left-menu {
+    border: none;
+    margin: 0px 10px 0 10px;
+    min-width: 260px;
+}
+
+.left-menu h3 {
+    background: #7a7a7a!important;
+    box-shadow: inset 0 0px 0px 1px #6b6b6b, 0 0px 2px 0px #353535 !important;
+    margin: 0px 0px 10px 0px;
+    color: #ddd;
+}
+
+.navbar-brand {
+    background: url(https://i1.beon.fun/24/36/3624/28/835528/tsun2D.beon.fun.gif) no-repeat center / cover;
+    width: 150px;
+    height: 50px;
+    background-blend-mode: overlay;
+    font-size: 0;
+    position: fixed;
+    left: -20px;
+    top: 0;
+}
+
+.navbar {
+    background: #7a7a7a;
+    padding: 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 50px;
+    width: 100%;
+    z-index: 9;
+    box-shadow: 0 0 1px 0px #939393, 0 0 3px 0px #353535 !important;
+}
+
+div#app {
+    padding: 50px 0 0 0;
+}
+
+body {
+    background: linear-gradient(180deg, #4d4d4dc9, #c3c3c3e6) fixed, 
+    url(https://i1.beon.fun/24/36/3624/24/835524/pagebg.png) fixed;
+}
+
+.user-drop-menu,
+span.comments_count span::before,
+.tag:before, .blog:before,
+.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none,
+.menu__btn,
+.user:before,
+[href="/design/disable"] img, 
+[src="/i/blog.png"],
+[src="/i/user.png"],
+.flag, .prevsibling, .nextsibling,
+.post-content .post-title-date, 
+.post-content .post-title-date + span,
+.post-content .user.post-title-user,
+.post-content.blog_total_counter,
+.container .m2, .footer__infolinks.p-1, 
+#page__admincontact, #footer.p-1, 
+#page__rendertime, .crumbs:last-child,
+.left-menu__friends, .pc-menu, 
+[onclick="window.scroll({top: 0,behavior: 'smooth'})"], 
+.my-menu.for-mobile.d-none.d-md-inline {
+     display: none !important;
+}
+
+#csseditortext {
+height: 500px !important;
+overflow: auto !important; }
+
+@media (max-width: 767.9999px) {
+.fas, .far, .tag_bar > * {
+    padding: 0 !important;
+}
+
+@media (max-width: 700px) {
+div.left-menu {
+    width: calc(100% - 20px);
+}
+
+.left-menu > div.mobile_open_menu > h3 {
+    font-weight: 200;
+    text-align: center;
+    padding: 10px 0;
+    color: #ddd;
+}
