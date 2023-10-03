@@ -388,6 +388,7 @@ font-size: 0;
 }
 
 .comment-content {
+    color: black;
     background: #e0d4d4;
     box-shadow: 0 0 2px 0px #353446;
     border: 5px solid #4c4f5f;
