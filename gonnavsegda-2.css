@@ -1,3 +1,11 @@
+.post-content .text-right + div + div.post-row > div.comment-base > div.post-opt > span.post-likes-count > i.fa-heart:before {
+    margin: -20px 0px 0px -20px;
+}
+
+.post-content .text-right + div + div.post-row .post-avatar {
+    margin: 0px 5px 0px 5px;
+}
+
 .liked, .liked .fas {
     color: #eba87c !important;
 }
@@ -27,7 +35,6 @@
 }
 
 .post-content:first-child .fa-heart:before {
-    margin: -20px 0px 0px -20px;
     position: absolute !important;
 }
 
@@ -179,10 +186,6 @@ a {
 
 #menu__toggle:checked ~ .menu__box li a {
     padding-right: 10px !important;
-}
-
-.post-content:first-child {
-    padding: 0px 10px 0px 6px;
 }
 
 .post-content:first-child .post-avatar {
@@ -643,6 +646,7 @@ div, a, span {
 .post-avatar {
     margin: 7px 5px 0px 5px;
 }
+
 .post-avatar img {
     border: 4px solid #4c4f5f;
     background: #4c4f5f;
