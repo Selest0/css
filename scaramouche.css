@@ -1,0 +1,1089 @@
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+div, a, span { font-family: 'Play', sans-serif; text-decoration: none !important; }
+@media (min-width: 1000px) {
+
+.hamburger-menu {
+    display: block;
+    position: fixed;
+    left: 86px;
+    top: 13px;
+}
+.hamburger-menu:after {
+    content: '';
+    position: absolute;
+    box-shadow: 5px 0px 1px -4px #423d9d;
+    width: 43px;
+    height: 40px;
+    top: -8px;
+}
+
+
+.menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {
+    background-color: #7771cb;
+    width: 24px;
+}
+
+[action="/search"]:before {
+    content: '';
+    height: 32px;
+    width: 32px;
+    background: url(https://i1.beon.fun/24/36/3624/76/860676/icons8-rasshirennyy-poisk-48.png) no-repeat center / 32px;
+    margin-right: 20px;
+    margin-top: -5px;
+}
+
+
+
+[action="/search"]:hover  [type=submit] {
+    opacity: 1;
+    transition-delay: .5s;
+    transition-duration: 1.5s;
+}
+
+[action="/search"] [type=submit] {
+    background: #423d9d;
+    border: none;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    box-shadow: 0px 0px 0px 1px #464191;
+    font-size: 10px;
+    padding: 0px 10px 0 10px;
+    text-transform: lowercase;
+    color: #7771cb;
+    opacity: 0;
+    margin: -1px 0 0 3px;
+    height: 22px;
+    transition: 1s;
+    transition-duration: .5s;
+}
+
+
+[action="/search"]:hover input:first-child {
+    width: 160px;
+    box-shadow: 0px 0px 0px 2px #272459;
+    opacity: 1;
+}
+
+[action="/search"] input:first-child {
+    background: #252344;
+    font-size: 10px !important;
+    border: unset;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    width: 0px;
+    text-transform: lowercase;
+    margin-left: 0px;
+    padding-left: 10px;
+    transition: 1s;
+    opacity: 0;
+}
+
+
+
+[action="/search"] {
+    display: flex;
+    position: fixed;
+    left: 145px;
+    top: 15px;
+    height: 20px;
+    transition: 0.5s;
+}
+
+
+
+.py-4 + .crumbs {
+margin: 0;
+}
+
+.blog__tags h3 + .left-menu-text::-webkit-scrollbar {
+    width: 6px;
+    background: #252344;
+    border-left: 1px solid #151421;
+}
+
+.blog__tags h3 + .left-menu-text::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient( 121deg , #423d9da1 5%, #252344e8 25%, #1d1b37d4), 
+                           url(https://i1.beon.fun/24/36/3624/83/857483/0-2.gif) !important;
+    box-shadow: inset 1px 0px 4px -1px #423d9d !important;
+}
+
+.blog__tags h3 + .left-menu-text::-webkit-scrollbar-thumb {
+    background-color: #252344;
+    box-shadow: inset 5px 5px 2px -4px #615cc561;
+    border: 1px solid #191919;
+}
+
+
+
+
+.post-header:after {
+content: '';
+    border: 4px solid #252344;
+    position: absolute;
+    top: 5px;
+    left: 6px;
+    min-width: 86px;
+    height: 86px;
+    background: url(https://i1.beon.fun/24/36/3624/87/857487/1.gif) center;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 0 1px #1d1b37;
+}
+
+
+
+
+.fa-heart:hover:before {
+color: #bcb0ebe3;
+}  
+.likebutton.liked .fa-heart:before {
+    color: #7771cb; 
+    transition: .5s; 
+    text-shadow: 0 0 2px black, 0px 0 5px #8781ef !important;
+}
+
+
+.post-row .row.w-100.mt-3 .col-md-6 a, .post-row .row.w-100.mt-3 .col-md-6 span {
+    transition: .5s;
+}
+
+.post-row .row.w-100.mt-3 .col-md-6:not(.text-right) a:hover, .post-row .row.w-100.mt-3 .col-md-6:not(.text-right) span:hover {
+    filter: brightness(1.6);
+}
+
+
+.post-header .post-title {
+    text-shadow: 0 -10px 2px transparent, 0 10px 2px transparent;
+    transition: .5s;
+}
+.post-header .post-title:hover {
+    text-shadow: 0 0 6px #9d96fdab, 0 0 6px #9d96fdab;
+    color: #e9dbff;
+}
+
+.comments_count a, .comments_count span,
+.fa-heart:before {
+    color: #7771cb;
+    transition: .5s;
+}
+.comments_count a:hover, .comments_count span:hover {
+    color: #aba1d8;
+}
+
+.post-content .post-header .user-drop-menu:before {
+    content: '';
+}
+
+.fa-retweet:before {
+    content: '';
+    height: 20px;
+    width: 20px;
+    background: url(https://i1.beon.fun/24/36/3624/5/858205/icons8-retweet-48-1.png) no-repeat center / 20px;
+    display: block;
+    margin: -5px 0px;
+}
+
+
+.fa-bookmark:before {
+    content: '';
+    height: 20px;
+    width: 20px;
+    background: url(https://i1.beon.fun/24/36/3624/3/858203/icons8-zakladka-lenta-48-1.png) no-repeat center / 20px;
+    display: block;
+    margin: -6px 0px;
+}
+
+
+.fa-exclamation-triangle:before {
+    content: '';
+    height: 20px;
+    width: 20px;
+    background: url(https://i1.beon.fun/24/36/3624/2/858202/icons8-oshibka-48-1.png) no-repeat center / 20px;
+    display: block;
+    margin: -6px 0px;
+}
+
+
+
+
+
+
+
+.post-row .row.w-100.mt-3 .post-likes-count {
+    font-size: 0px;
+}
+
+
+.post-row .row.w-100.mt-3 .fas.fa-heart {
+    font-size: 16px;
+    margin: 2px 0px;
+}
+
+.post-row .row.w-100.mt-3 [href$="/edit"] {
+    content: url(https://i1.beon.fun/24/36/3624/6/858206/icons8-redaktirovat-48-1.png);
+    width: 20px;
+}
+
+.post-row .row.w-100.mt-3 [href^="//beon.fun/repost/"] {
+    content: url(https://i1.beon.fun/24/36/3624/5/858205/icons8-retweet-48-1.png);
+    width: 20px;
+}
+
+.post-row .row.w-100.mt-3 [href^="//beon.fun/repost/"] + span {
+    content: url(https://i1.beon.fun/24/36/3624/4/858204/icons8-musor-48-1.png);
+    width: 20px;
+}
+
+
+.post-content .post-row img.imagefsme {
+    filter: saturate(0.8);
+    border-radius: 10px;
+}
+
+
+
+*, :after, :before, a {
+    color: #bcb0ebe3; 
+}
+
+.post-content .post-header .user-drop-menu {
+    position: absolute;
+    left: 9px;
+    top: 9px;
+    width: 80px;
+    height: 80px;
+    margin: 0;
+    font-size: 0;
+
+    z-index: 99999;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+.post-content .post-header .user-drop-menu:hover { 
+    background: rgb(65 53 127 / 25%);
+}
+
+ .post-row .row.w-100.mt-3 .col-md-6 {
+    flex: unset;
+    max-width: max-content;
+    display: flex;
+    height: 25px;
+    margin: 0;
+    padding: 0;
+    align-items: flex-end;
+}
+
+ .post-row .row.w-100.mt-3 {
+    position: absolute;
+    top: -78px;
+    margin: 0px 0px 0 90px;
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+    width: auto !important;
+}
+
+.post-header .post-title {
+    max-height: 40px;
+    max-width: 90%;
+    overflow: hidden;
+    box-shadow: 0px 2px 2px -2px #423d9d;
+    padding: 0px 10px 0px 10px;
+    font-size: 22px;
+}
+
+.post-header .post-title-date + span { 
+    font-size: 12px;
+    color: #5751a5a8;
+    position: absolute;
+    right: 14px;
+    top: 2px;
+}
+
+.datebg {
+    position: absolute;
+    right: 0;
+    margin: -24px 80px;
+    font-size: 12px;
+    font-weight: 100;
+    background: #252344;
+    padding: 2px 20px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    z-index: 1;
+    box-shadow: 0px -2px 3px -2px #5c52db, 0px -2px 3px 0px #0a0a14, inset 0px -3px 2px -3px #0a0a14;
+    color: #6462a787;
+}
+
+
+
+
+
+
+
+* { cursor: url(https://i1.beon.fun/24/36/3624/86/857486/1-1.png), auto !important; }
+
+a, span, label { 
+    cursor: url(https://i1.beon.fun/24/36/3624/85/857485/1-2.png), auto !important; }
+
+
+
+body::-webkit-scrollbar {
+    width: 10px;
+    background: #1d1b37;
+    border-left: 1px solid #26225b;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient( 121deg , #423d9da1 5%, #252344e8 25%, #1d1b37d4), 
+                           url(https://i1.beon.fun/24/36/3624/83/857483/0-2.gif) !important;
+    box-shadow: inset 1px 0px 4px -1px #423d9d !important;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #26225b;
+    box-shadow: inset 5px 5px 2px -4px #615cc56b;
+    border: 1px solid #191919;
+}
+
+::selection {
+    color: #7771cb;
+    text-shadow: 0px 1px 3px #131227;
+    background: #423d9d;
+}
+
+
+
+
+
+
+
+
+
+
+
+.post-content .post-header + .post-row .post-avatar a:after {
+    content: '';
+    position: absolute;
+    background: url(https://cdn.akamai.steamstatic.com/steamcommunity/public/images/items/933820/b6080a0f52bfc036e7de284754c2ea8781323d7b.png) no-repeat -10px -10px / 100px;
+    width: 80px;
+    height: 80px;
+    left: 0px;
+    top: 0;
+    transition: 0.5s;
+    filter: opacity(0.5);
+}
+
+
+
+
+
+.post-content .post-header {
+    margin: 0 !important;
+    height: 100px;
+    padding: 5px 0px 0px 92px;
+    background: #252344;
+}
+
+
+.post-content .post-header + .post-row .post-avatar {
+    border: 4px solid #252344;
+    position: absolute;
+    top: 5px;
+    left: 0px;
+    min-width: 86px;
+    height: 86px;
+    background: url(https://i1.beon.fun/24/36/3624/87/857487/1.gif) center;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 0 1px #1d1b37;
+}
+
+
+
+
+.left-menu .blog__about h3:before {
+    content: '';
+    background: url(https://i1.beon.fun/24/36/3624/35/857435/1-15.png) no-repeat 25px 31px / 230px;
+    width: 280px;
+    height: 280px;
+    position: absolute;
+    filter: hue-rotate(-155deg) brightness(0.6) contrast(2);
+}
+
+
+
+
+.post-content  .post-row {padding: 5px;background: #1d1b37;margin: 0px 6px 10px 6px;border: 1px solid #16152d;border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;}
+
+.post-content {
+    background: #252344;
+    border-radius: 20px;
+    margin: 0px 0px 60px 0px !important;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0px 0px 2px 0px #5c52db, 0px 0px 2px 2px #0a0a14;
+    min-height: auto;
+}
+
+
+
+
+
+
+.blog__gifts img {
+    filter: saturate(0.5) drop-shadow(0px 0px 4px black);
+    width: 50px;
+}
+
+.blog__gifts a,
+.blog__read-me a,
+.blog__last-comments a,
+.blog__iread a,
+.blog__tags a {
+    font-size: 14px !important;
+    padding: 0 20px 0 6px;
+    transition: 0.5s;
+    transition-duration: 2s;
+    text-shadow: 0 0 10px transparent;
+}
+
+.blog__gifts a:hover,
+.blog__read-me a:hover,
+.blog__last-comments a:hover,
+.blog__iread a:hover,
+.blog__tags a:hover {
+    color: #e9dbff;
+    transition: 0s;
+    text-shadow: 0 0 15px #9d96fd;
+}
+
+
+
+
+
+
+.blog__tags {
+    font-size: 0px;
+}
+
+.blog__about a {
+    transition: 0.5s;
+}
+.blog__about a:hover {
+    background: #423d9d;
+    box-shadow: 0 0 1px 4px #151421, 0px 0px 2px 4px #5c52db;
+    transition: 0.5s;
+}
+
+.blog__about [href="/discussions"],
+.blog__about [href$="beon.fun/friends-activities/"],
+.blog__about [href$="beon.fun/subscriptions/"],
+.blog__about [href^="//beon.fun/users/"] {
+    font-size: 16px;
+    height: 28px;
+    display: grid;
+    align-content: space-evenly;
+    text-shadow: 0 -20px 2px transparent, 0 20px 2px transparent;
+    width: 170px;
+    text-transform: lowercase;
+    margin: 0 0 6px 0px;
+    border-radius: 20px;
+    border: 4px solid transparent;
+    color: #7771cb;
+    letter-spacing: 1px;
+    transition-duration: 1s;
+}
+
+.blog__about [href="/discussions"]:hover,
+.blog__about [href$="beon.fun/friends-activities/"]:hover,
+.blog__about [href$="beon.fun/subscriptions/"]:hover,
+.blog__about [href^="//beon.fun/users/"]:hover {
+    opacity: 1;
+    text-shadow: 0 0 15px #9d96fd, 0 0 15px #9d96fd;
+    transition-duration: 0.5s;
+    box-shadow: inset 0px 0px 10px -2px #252344, 
+                            inset 0px 0px 3px 30px #252344, 
+                            inset 0px 0px 0px 10px #423d9d, 
+                            inset 0px 0px 0px 10px #5751a9, 0px 0px 2px 0px #423d9d;
+    border-radius: 20px;
+    border: 4px solid #1d1b37;
+    color: #e9dbff;
+}
+
+.left-menu-text {
+    padding-left: 0 !important;
+    align-self: center;
+}
+
+.blog__about [href="/p"] {
+   position: absolute;
+    top: 280px;
+    left: 110px;
+    font-size: 0;
+    content: url(https://i1.beon.fun/24/36/3624/67/856567/icons8-nastroyki-48.png);
+    height: 42px;
+    background: #151421;
+    border-radius: 50%;
+    padding: 6px;
+    box-shadow: 0 0 1px 4px #252344;
+}
+
+.blog__about [href="/drafts"] {
+    position: absolute;
+    top: 280px;
+    left: 186px;
+    font-size: 0;
+    content: url(https://i1.beon.fun/24/36/3624/66/856566/icons8-redaktirovanie-fayla-48.png);
+    height: 42px;
+    background: #151421;
+    border-radius: 50%;
+    padding: 6px;
+    box-shadow: 0 0 1px 4px #252344;
+}
+
+.blog__about [href="/design/disable"] {
+    position: absolute;
+    top: 280px;
+    left: 256px;
+    font-size: 0;
+    content: url(https://i1.beon.fun/24/36/3624/38/856538/icons8-vyklyuchenie-sistemy-48.png);
+    height: 42px;
+    background: #151421;
+    border-radius: 50%;
+    padding: 6px;
+    box-shadow: 0 0 1px 4px #252344;
+}
+
+.blog__about .blog-subscribe {
+    position: absolute;
+    top: 280px;
+    left: 186px;
+    font-size: 0;
+    content: url(https://i1.beon.fun/24/36/3624/39/856539/icons8-dobavit-v-izbrannoe-48.png);
+    height: 42px;
+    background: #151421;
+    border-radius: 50%;
+    padding: 6px;
+    box-shadow: 0 0 1px 4px #252344;
+}
+
+
+.blog__about [href^="/friends/request/"] {
+   position: absolute;
+    top: 280px;
+    left: 110px;
+    font-size: 0;
+    content: url(https://i1.beon.fun/24/36/3624/41/856541/icons8-dobavit-polzovatelya-48.png);
+    height: 42px;
+    background: #151421;
+    border-radius: 50%;
+    padding: 6px;
+    box-shadow: 0 0 1px 4px #252344;
+}
+
+.blog__about [href^="/friends/delete/"] {
+   position: absolute;
+    top: 280px;
+    left: 110px;
+    font-size: 0;
+    content: url(https://i1.beon.fun/24/36/3624/35/859435/icons8-udalit-polzovatelya-48-1.png);
+    height: 42px;
+    background: #151421;
+    border-radius: 50%;
+    padding: 6px;
+    box-shadow: 0 0 1px 4px #252344;
+}
+
+.blog__about [href^="//im.beon.fun/"] {
+   position: absolute;
+   top: 280px;
+   left: 40px;
+   font-size: 0;
+   content: url(https://i1.beon.fun/24/36/3624/42/856542/icons8-soobshchenie-48.png);
+   height: 42px;
+   background: #151421;
+   border-radius: 50%;
+   padding: 6px;
+   box-shadow: 0 0 1px 4px #252344;
+    transition: 0.5s;
+}
+
+
+
+main.py-4 {
+    min-height: 106vh;
+}
+
+.left-menu h3 {
+    background: transparent !important;
+    font-size: 0;
+    margin: 0;
+}
+
+.left-menu .blog__about h3 {
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    top: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.left-menu .blog__about h3:after {
+    border-radius: 50%;
+    margin: 60px;
+    content: '';
+    background: url(https://i1.beon.fun/24/36/3624/79/856379/eon.gif) no-repeat center / 170px;
+    width: 170px;
+    height: 170px;
+    box-shadow: 0 0 1px 5px #252344;
+
+    position: absolute;
+}
+
+#fnplayer-volume:hover #fnplayer-volume-inner, #fnplayer-slider:hover #fnplayer-slider-inner {
+    box-shadow: inset 0 0 4px 0px #423d9d;
+}
+
+#fnplayer-play.paused:after {
+    content: '';
+    background: linear-gradient(180deg, #1d1b37 0px, #b70f0f00 4px), url(https://i1.beon.fun/24/36/3624/71/855971/0.gif) no-repeat -1px -26px / 100px;
+    background-blend-mode: luminosity;
+    width: 100px;
+    height: 16px;
+    position: absolute;
+    left: 128px;
+    top: 52px;
+    pointer-events: none;
+}
+
+#fnplayer-volume {
+    position: absolute;
+    top: 116px;
+    height: 4px;
+    left: 64px;
+    width: 80px;
+    background: #151421;
+    border-radius: 10px;
+    box-shadow: rgb(0, 0, 0) 0px 0px 1px 0px;
+}
+
+#fnplayer-volume-inner {
+    height: 4px;
+    background: #252344;
+    border: none;
+    border-radius: 10px;
+    transition: .2s;
+}
+
+
+
+#fnplayer-play:before {
+    content: '';
+    background: url(https://i.pinimg.com/originals/57/32/01/57320170c92289b6a27f10948b512500.gif) no-repeat center / 110px, #1d1b37;
+    background-blend-mode: luminosity;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    z-index: -1;
+    left: -5px;
+    top: -5px;
+    border-radius: 50%;
+    box-shadow: inset 0 0 2px 2px #2a2669, inset 0 0 3px 3px #1d1b37;
+}
+
+
+#fnplayer-slider-inner {
+    background-color: #7a72e7;
+    height: 2px;
+    margin: 2px 0 0 2px;
+    box-shadow: inset 0 0 2px 0 #000;
+    transition: 1s;
+}
+
+#fnplayer-slider > span {
+    margin: -22px 0px 0px 0;
+    font-size: 0px;
+    width: 170px;
+    left: 10px;
+    text-align: left;
+    height: 20px;
+    overflow: hidden;
+    line-height: 1.5;
+    pointer-events: auto;
+}
+#fnplayer-slider > span:after {
+    font-size: 14px;
+    content: 'do you think im evil?';
+    letter-spacing: 1px;
+    color: #5751a9;
+}
+
+#fnplayer-slider {
+    position: absolute;
+    top: 106px;
+    left: 74px;
+    width: 180px;
+    background: #151421;
+    border-radius: 8px;
+    height: 6px;
+}
+
+#fnplayer-play {
+    position: absolute;
+    top: 60px;
+    left: 20px;
+    background: url(https://i1.beon.fun/24/36/3624/63/856063/icons8-vosproizvedenie-48.png) no-repeat 12px 10px / 30px, #423d9d;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 2px 0px #5c52db, 0px 1px 2px 1px #000 !important;
+    border: none !important;
+}
+
+
+#beon-fnplayer {
+    position: absolute;
+    z-index: 1;
+    top: calc(66% + 54px);
+    background: transparent;
+}
+
+
+.blog__tags:before {
+    background: url(https://i1.beon.fun/24/36/3624/8/856308/icons8-tegi-48.png) no-repeat 14px 8px / 34px, #252344;
+}
+.blog__tags:hover:before {
+    background: url(https://i1.beon.fun/24/36/3624/8/856308/icons8-tegi-48.png) no-repeat 14px 8px / 34px, #423d9d;
+}
+
+
+.blog__iread:before {
+    background: url(https://i1.beon.fun/24/36/3624/12/856312/icons8-knigi-48.png) no-repeat 14px 8px / 34px, #252344;
+}
+.blog__iread:hover:before {
+    background: url(https://i1.beon.fun/24/36/3624/12/856312/icons8-knigi-48.png) no-repeat 14px 8px / 34px, #423d9d;
+}
+
+
+.blog__read-me:before {
+    background: url(https://i1.beon.fun/24/36/3624/15/856315/icons8-pokazat-48.png) no-repeat 14px 8px / 34px, #252344;
+}
+.blog__read-me:hover:before {
+    background: url(https://i1.beon.fun/24/36/3624/15/856315/icons8-pokazat-48.png) no-repeat 14px 8px / 34px, #423d9d;
+}
+
+
+.blog__last-comments:before {
+    background: url(https://i1.beon.fun/24/36/3624/16/856316/icons8-chat-48.png) no-repeat 14px 8px / 34px, #252344;
+}
+.blog__last-comments:hover:before {
+    background: url(https://i1.beon.fun/24/36/3624/16/856316/icons8-chat-48.png) no-repeat 14px 8px / 34px, #423d9d;
+}
+
+
+.blog__gifts:before {
+    background: url(https://i1.beon.fun/24/36/3624/17/856317/icons8-podarok-48.png) no-repeat 14px 8px / 34px, #252344;
+}
+.blog__gifts:hover:before {
+    background: url(https://i1.beon.fun/24/36/3624/17/856317/icons8-podarok-48.png) no-repeat 14px 8px / 34px, #423d9d;
+}
+
+
+
+
+.content {
+    margin: 40px;
+    width: calc(100% - 446px);
+}
+
+
+
+div.left-menu:before {
+    content: '';
+    position: absolute;
+    height: 50px;
+    width: 5px;
+    background: #423d9d;
+    top: calc(66% + 1px);
+    left: 1px;
+    box-shadow: inset 0px 0px 2px 0px #151421;
+    z-index: 1;
+}
+div.left-menu:after {
+    content: '';
+    position: absolute;
+    top: calc(66% + 54px);
+    width: inherit;
+    height: inherit;
+    background: url(https://i1.beon.fun/24/36/3624/57/855457/0.png) no-repeat, url(https://yip.su/rng9gfd.png), #1d1b37;
+}
+
+
+
+.blog__tags:hover, 
+.blog__iread:hover,
+.blog__read-me:hover, 
+.blog__last-comments:hover, 
+.blog__gifts:hover{
+    z-index: 9;
+}
+
+.blog__tags:before {left: 7px;}
+.blog__iread:before {left: 73px;}
+.blog__read-me:before {left: 139px;}
+.blog__last-comments:before {left: 205px;}
+.blog__gifts:before {
+left: 271px;
+}
+
+.blog__tags:before,
+.blog__iread:before,
+.blog__read-me:before,
+.blog__last-comments:before,
+.blog__gifts:before {
+    content: '';
+    position: absolute;
+    width: 65px;
+    height: 50px;
+    top: -52px;
+    transition: 0.5s;
+    z-index: 9;
+}
+
+
+.blog__gifts,
+.blog__read-me,
+.blog__iread,
+.blog__tags,
+.blog__last-comments {
+    letter-spacing: 1px;
+    height: calc(100vh - 600px);
+    background: #1d1b37;
+    position: absolute;
+    top: calc(66% - -52px);
+    width: 100%;
+    border-top: 1px solid #151421;
+    padding: 5px;
+    max-height: -webkit-fill-available;
+    min-height: -webkit-fill-available;
+}
+
+.blog__tags h3 + .left-menu-text {
+    height: 100%;
+    overflow: auto;
+}
+
+.blog__about {
+    font-size: 0;
+    height: 66%;
+    overflow: hidden;
+    border-bottom: 1px solid #151421;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background: url(https://i1.beon.fun/24/36/3624/50/855450/001.png) no-repeat bottom left, 
+                           url(https://i1.beon.fun/24/36/3624/57/855457/0.png) no-repeat top, #1d1b37;
+    padding-top: 350px;
+    text-align: center;
+}
+
+.left-menu__user-notification {
+    position: fixed;
+    right: 0;
+    background: #7771cb;
+    border: 3px solid;
+    bottom: 0;
+    opacity: .7;
+}
+
+
+.content  .post-content .post-avatar img {
+    min-height: 80px;
+    min-width: 80px;
+    max-height: 80px;
+    object-fit: cover;
+    object-position: top;
+}
+
+[onclick="window.scroll({top: 0,behavior: 'smooth'})"] {
+    background: url(https://i1.beon.fun/24/36/3624/56/859356/icons8-dvoynaya-strelka-vniz-48.png) no-repeat 13px 10px / 30px, #1d1b37;
+    z-index: 9;
+    transform: rotate(180deg);
+    position: fixed;
+    right: 90px;
+    top: 10px;
+    font-size: 0;
+    width: 56px;
+    height: 56px;
+    box-shadow: 0px -3px 4px -3px #645ed3, 0px -7px 2px -2px #0a0a14 !important;
+    border-radius: 50%;
+}
+
+
+
+* {
+    outline: 0;
+    text-decoration: none !important;
+}
+
+
+.crumb-item {
+    font-weight: 100;
+}
+
+.navbar + div.crumbs {
+    position: absolute;
+    padding-left: 40px;
+    padding-right: 20px;
+    top: -48px;
+    margin-left: 340px;
+    background: #252344;
+    box-shadow: 0px 0px 2px 0px #6f69b9, 0px 0px 2px 1px #000 !important;
+    border-radius: 20px;
+    font-size: 18px;
+}
+
+
+.navbar + div.crumbs:before {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 0;
+    margin: 10px 0 0px -10px;
+    z-index: -1;
+    border: 2px solid #1d1b37;
+    border-top-left-radius: 10px;
+    border-right: none;
+}
+
+
+
+
+
+
+
+.navbar-brand {
+    position: fixed;
+    top: 14px;
+    left: 20px;
+    font-size: 0;
+    background: url(https://i1.beon.fun/24/36/3624/7/858207/icons8-glavnaya-48.png) no-repeat center / 30px;
+    width: 24px;
+    height: 24px;
+}
+
+.navbar-brand:after {
+content: '';
+    position: absolute;
+    box-shadow: 5px 0px 1px -4px #423d9d;
+    width: 46px;
+    height: 40px;
+    top: -8px;
+}
+
+
+div.left-menu  {
+    background: url(https://i1.beon.fun/24/36/3624/22/859422/Screenshot_5-1.png) no-repeat 0 calc(66% + 35px), #1d1b37;
+    box-shadow: 0px 0px 2px 0px #5b55cd, 0px 0px 2px 2px #0a0a14 !important;
+    position: sticky;
+    top: 90px;
+    z-index: 9;
+    border-radius: 20px;
+    border: none !important;
+    height: calc(100vh - 130px);
+    overflow: hidden;
+    margin: 0;
+    width: 337px;
+    margin-left: 30px;
+    margin-top: -100px;
+}
+
+
+#navbarSupportedContent > ul.navbar-nav.ml-auto > a {
+    background: url(https://i1.beon.fun/24/36/3624/56/859356/icons8-dvoynaya-strelka-vniz-48.png) no-repeat 13px 18px / 30px, #1d1b37;
+    position: fixed;
+    right: 15px;
+    top: 10px;
+    font-size: 0;
+    width: 56px;
+    height: 56px;
+    box-shadow: 0px 3px 4px -3px #645ed3, 0px 7px 2px -2px #0a0a14 !important;
+    border-radius: 50%;
+}
+
+
+.textareabg, .textarea-wrapper > textarea {
+    background-color: #232831;
+}
+
+body {
+    background: url(https://i1.beon.fun/24/36/3624/4/820804/75.jpg) fixed no-repeat center top  / cover, black;
+    box-shadow: 0px 0px 2px 0px #6960d3, 0px 0px 2px 1px #000 !important;
+    animation: opacity 2s;
+}
+
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+    height: 50px;
+    overflow: hidden;
+    background: #1d1b37;
+    box-shadow: 0px 0px 4px 0px #423d9d, 0px 4px 4px 0px #0a0a14 !important;
+    transition: .5s;
+}
+
+div#app {
+    padding: 0;
+    margin-top: 60vh;
+    background: linear-gradient(180deg, #151421bf 40%, #19173794 80%, #242151bf) fixed, 
+                           url(https://i1.beon.fun/24/36/3624/44/857444/01.jpg) fixed center / 800px;
+    position: relative;
+}
+
+
+
+
+#csseditortext {
+height: 500px !important;
+overflow: auto !important; }
+
+@-webkit-keyframes opacity {
+    0% { opacity: 0; }
+   100% { opacity: 1; }
+}
+
+
+
+.post__tags-list,
+.post__mood,
+.post__musicplay,
+.post__wish,
+.flag,
+.blog__iread a img,
+.blog__read-me a img,
+.user:before,
+[src="//beon.fun/i/offline.png"],
+.blog__about .text-center img,
+#fnplayer-stop,
+#fnplayer-volume-mask,
+.post-content .post-avatar .sign,
+.post-content .post-title-date,
+.post-content .user.post-title-user,
+.post-content.blog_total_counter,
+#page__rendertime,
+#footer.p-1,
+#page__admincontact,
+.footer__infolinks.p-1,
+.left-menu__friends,
+.container .m2,
+.pc-menu {
+
+    display: none;
+}
