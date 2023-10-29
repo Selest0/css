@@ -1,0 +1,1292 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');  
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+#csseditortext {
+    height: 500px !important;
+overflow: auto !important;
+}
+
+.comment-box .post-title-date + a {
+    content: url(https://i1.beon.fun/24/36/3624/46/828446/icons8-dolya-3-48.png);
+    width: 18px;
+    margin: 0px 0px 0 10px;
+    opacity: .5;
+    transition: .5s;
+}
+.comment-box .post-title-date + a:hover {
+    opacity: 1;
+}
+
+.comment-box .post-title-date {
+    font-size: 10px;
+    color: #dbe9f7;
+    display: contents;
+}
+
+.comment-box .post-likes-count {
+    display: block !important;
+    width: min-content;
+}
+
+.comment-box .post-opt.mt-3 [href^="//beon.fun/repost/"]  + span {
+    content: '';
+    background: url(https://i1.beon.fun/24/36/3624/16/820316/icons8-udalit-navsegda-48.png) no-repeat center / cover;
+    width: 24px;
+    height: 24px;
+}
+
+.comment-box .post-opt.mt-3 [href^="//beon.fun/repost/"] {
+    content: '';
+    background: url(https://i1.beon.fun/24/36/3624/17/820317/icons8-obnovit-48.png) no-repeat center / cover;
+    width: 24px;
+    height: 24px;
+}
+
+.comment-box .post-opt.mt-3 [href$="/edit"] {
+    content: '';
+    background: url(https://i1.beon.fun/24/36/3624/18/820318/icons8-redaktirovanie-fayla-48.png) no-repeat center / cover;
+    width: 24px;
+    height: 24px;
+}
+
+
+
+
+
+
+.comment-box .comment-content:before {
+    content: '';
+    position: absolute;
+    border-bottom: 2px dashed #b1c9e854;
+    height: 100%;
+    width: 100%;
+    margin: 36px 0 0 0;
+}
+
+.comment-base .mt-3 {
+    font-size: 0;
+    letter-spacing: 4px;
+    background: #b1c9e8;
+    border-radius: 10px;
+    height: 32px;
+    margin: 0px 0px -26px 0px;
+    border: 1px solid #94acd8;
+    position: sticky;
+    top: 100%;
+    width: max-content;
+    padding: 2px 10px 2px 10px;
+    float: right;
+    display: flex;
+}
+
+.comment-box .user-drop-menu {
+    display: none;
+}
+
+.comment-box .post-title-user {
+    font-size: 16px;
+    color: #f9fafd !important;
+    margin-right: 10px;
+}
+
+.comment-box .comment-row {
+    padding: 5px 10px 0px 10px;
+    font-size: 14px;
+}
+
+.comment-box .comment-content {
+    min-height: auto;
+    border-bottom: 1px solid #94acd8;
+    border-top: 1px solid #94acd8;
+    margin-bottom: 70px;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.comment-box .comment-content > div:first-child {
+    background: #b1c9e8;
+    border-radius: 8px;
+    border: 1px solid #94acd8;
+    width: max-content;
+    padding: 0px 10px;
+    display: flex;
+    align-items: center;
+    height: 30px;
+    margin: -15px 0px 5px 10px;
+}
+
+
+
+
+
+
+.messageform__taglinks.collapse.show {
+    display: block !important;
+}
+
+.post-likes-count {
+    display: none;
+}
+
+#app > main > div.content div.post-row div.post-text div.post-opt.col-12.col-md-6:not(.text-right) {
+    margin: 0px 40px 0px 0px;
+    height: 40px;
+}
+
+.post__tags-list + div  {
+    position: absolute;
+    right: 0px;
+    top: 8px;
+}
+
+#app > main > div.content div.post-row div.post-text div.post-opt.col-12.col-md-6.text-right {
+margin: 0px 0 0 0;
+    padding: 8px 0 0 0 !important;
+    border: 1px solid #9dbae2;
+    color: #f9fafd !important;
+    background: linear-gradient(120deg, #b2cae9 0px, #b2cae9 25px, aliceblue 26px,aliceblue 28px, #b2cae9 29px, #b2cae9);
+    text-shadow: 0 0 2px #82a6da;
+    font-size: 0;
+    position: absolute;
+    right: 0px;
+    top: -1px;
+    height: 41px;
+    width: 190px;
+    border-top-left-radius: 20px;
+    clip-path: polygon(13% 0, 100% 0%, 100% 100%, 0% 100%);
+    z-index: -1;
+}
+
+.post-content .row .post-opt [href$="/edit"] + [href^="//beon.fun/repost/"] + span {
+content: '';
+    background: url(https://i1.beon.fun/24/36/3624/16/820316/icons8-udalit-navsegda-48.png) no-repeat center / cover;
+    width: 24px;
+    height: 24px;
+    display: block;
+    position: absolute;
+    top: 8px;
+    font-size: 0;
+    right: 8px;
+}
+
+.post-content .row .post-opt [href$="/edit"] + [href^="//beon.fun/repost/"] {
+content: '';
+    background: url(https://i1.beon.fun/24/36/3624/17/820317/icons8-obnovit-48.png) no-repeat center / cover;
+    width: 24px;
+    height: 24px;
+    display: block;
+    position: absolute;
+    top: 8px;
+    font-size: 0;
+    right: 46px;
+}
+
+.post-content .row .post-opt [href$="/edit"] {
+content: '';
+    background: url(https://i1.beon.fun/24/36/3624/18/820318/icons8-redaktirovanie-fayla-48.png) no-repeat center / cover;
+    width: 24px;
+    height: 24px;
+    display: block;
+    position: absolute;
+    top: 8px;
+    font-size: 0;
+    right: 86px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fa-bookmark:before {
+    content: '';
+    background: url(https://i1.beon.fun/24/36/3624/42/820142/icons8-zakladka-lenta-48.png) no-repeat center / cover;
+    width: 24px;
+    height: 24px;
+    display: block;
+}
+
+.bookmarked {
+content: '';
+    background: url(https://i1.beon.fun/24/36/3624/43/820143/icons8-zakladka-lenta-48-1.png) no-repeat center / cover;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+}
+
+.bookmarked > i.fa-bookmark:before {
+opacity: 0;
+}
+
+.fa-retweet:before {
+    content: '';
+    background: url(https://i1.beon.fun/24/36/3624/39/820139/icons8-sinhronizirovat-48.png) no-repeat center / cover;
+    width: 24px;
+    height: 24px;
+    display: block;
+    transition: 1s;
+}
+.fa-retweet:hover:before {
+    transform: rotate(360deg);
+}
+
+
+.liked {
+content: '';
+    background: url(https://i1.beon.fun/24/36/3624/41/820141/icons8-serdce-s-pulsom-48.png) no-repeat center / cover;
+    width: 24px;
+    height: 24px;
+}
+
+.liked > i.fa-heart:before {
+opacity: 0;
+}
+.fa-heart:before {
+    content: '';
+    background: url(https://i1.beon.fun/24/36/3624/40/820140/icons8-serdce-48.png) no-repeat center / cover;
+    width: 24px;
+    height: 24px;
+    display: block;
+}
+
+
+
+
+.post-content .row {
+    margin: 0 !important;
+    padding: 0px;
+    background: aliceblue;
+    z-index: 2;
+    position: relative;
+    border-top: 1px solid #c2d6ef;
+}
+
+.post-content .row .post-opt {
+    padding: 6px 0px 6px 6px;
+}
+
+.navbar + .crumbs > .pagination {
+    float: right;
+    width: 240px;
+    height: 40px;
+    position: fixed;
+    z-index: 1;
+    top: 795px;
+    left: 50px;
+}
+
+.navbar + .crumbs > .pagination > a:nth-child(2) {
+    content: '';
+    background: url(https://i1.beon.fun/24/36/3624/29/819529/icons8-dvoynaya-strelka-vlevo-48.png) no-repeat center / cover;
+    width: 30px;
+    height: 30px;
+    align-self: center;
+}
+
+.navbar + .crumbs > .pagination > a:last-child {
+    content: '';
+    background: url(https://i1.beon.fun/24/36/3624/29/819529/icons8-dvoynaya-strelka-vlevo-48.png) no-repeat center / cover;
+    width: 30px;
+    height: 30px;
+    align-self: center;
+    position: absolute;
+    right: 0;
+    transform: rotate(180deg);
+}
+
+
+.avatar-select-label {
+    border: 4px solid #ffffff;
+    max-height: 80px;
+    object-fit: cover;
+    object-position: top;
+    min-width: 80px;
+    border-radius: 50px;
+    margin: 20px -20px 0px -20px;
+    background: #80a4d8;
+    transition: 1s;
+}
+.avatar-select-label-selected {
+    border: 4px solid #80a4d7 !important;
+    position: relative;
+}
+
+.avatar-select-list::-webkit-scrollbar {
+    height: 0px;
+    width: 0px;
+}
+
+.textareabg .textarea-wrapper {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+#messageform {
+    text-align: center;
+    text-align: -webkit-center;
+}
+
+.avatar-select-list {
+    height: 120px !important;
+    width: 50% !important;
+    padding: 0px 20px 20px 20px;
+}
+
+.comment-row .post-avatar img {
+    border-radius: 20px;
+    border: 3px solid #81a5d8;
+}
+
+.textarea-wrapper > textarea {
+    width: 80%;
+    background: aliceblue;
+    border: 1px solid #81a5d8;
+    border-radius: 20px;
+}
+
+* { cursor: url("https://i1.beon.fun/24/36/3624/33/817133/011.png"), auto !important; }
+#fnplayer-play:hover::before {
+    cursor: pointer !important; 
+}
+
+
+
+https://i1.beon.fun/24/36/3624/52/818852/01.png
+.textareabg #messageform input {
+    background: linear-gradient(0deg, #b2cae9, transparent);
+    border: 1px solid #81a5d8;
+    border-radius: 4px;
+    margin: 10px 2px 0px 2px;
+    transition: 1s;
+    color: #5c7ba7;
+}
+.textareabg input:hover {
+    background: linear-gradient(180deg, #b2cae9, transparent);
+}
+
+#newpostform {
+    margin: 20px;
+    background: #f9fafd;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px !important;
+    border: 1px solid;
+    border-bottom-color: #243c6b;
+    border-top-color: #003f7191;
+    border-left-color: #3688f4a8;
+    border-right-color: #12305db5;
+    box-shadow: 0 2px 2px -1px #111d379c;
+}
+
+.comment-box {
+    overflow: hidden;
+    background: #f0f8ff;
+    width: 90%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 1px solid;
+    border-bottom: transparent;
+    border-top-color: #003f7191;
+    border-left-color: #3688f4a8;
+    border-right-color: #12305db5;
+    padding: 30px 0 0px 0px;
+}
+.comment-box + .textareabg {
+    background: #f9fafd;
+    margin: 0px 0px 20px 0;
+    padding: 0px 20px 20px 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 1px solid;
+    border-top: transparent;
+    border-left-color: #3688f4a8;
+    border-bottom-color: #193965;
+    border-right-color: #12305db5;
+    box-shadow: 0 2px 2px -1px #111d379c;
+    width: 90%;
+}
+
+.comments_count a {
+    font-size: 0px;
+}
+
+.comments_count span {
+    right: 10px;
+font-size: 0px;
+    content: '';
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    background: url(https://i1.beon.fun/24/36/3624/73/820073/icons8-tema-48.png) center / cover, #b2cae9;
+}
+
+.col-md-6 {
+    flex: unset;
+    max-width: unset;
+}
+
+ .post__tags-list { 
+    font-size: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: calc(100% - 190px);
+    height: 28px;
+    overflow: hidden;
+}
+ .post__tags-list a { 
+    font-size: 14px;
+    margin: 2px 4px;
+    padding: 0 4px;
+}
+
+ .post__tags-list:before{
+    content: '';
+    width: 24px;
+    height: 24px;
+    display: block;
+    background: url(https://i1.beon.fun/24/36/3624/16/816016/icons8-teg-48.png) center / cover;
+}
+
+
+
+
+
+
+
+#app > main > div.content  div.post-row > div.post-text.row.w-100.mt-3 {
+    margin: 0px 0px 0px 0px !important;
+    background: #f0f8ff;
+    z-index: 9;
+    position: relative;
+    border-top: 1px solid #9dbae1;
+}
+
+.content .post-content:not(:first-child) .post-row .post-text img {
+    padding: 0px;
+    transition: 1s;
+}
+.content .post-content:not(:first-child):hover .post-row .post-text img {
+    scale: 1.1;
+}
+
+
+.post-content:not(:first-child):hover:after {
+    transition-duration: .4s;
+    transition-timing-function: cubic-bezier(0, 0.73, 0.48, 1);
+    transition-property: transform;
+    transform-origin: 50% 50%;
+    transform: translateY(-20%) rotateZ(4deg) translateX(-50px);
+}
+.post-content:not(:first-child):after {
+    content: '';
+    width: 150%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(242, 246, 248, 0.459) 0%, #d8e1e7 50%, #b5c6d0 52%, rgba(224, 239, 249, 0) 100%);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transform: translateY(-50%) rotateZ(0deg) translateX(-50px);
+    transition-timing-function: cubic-bezier(0, 0.73, 0.48, 1);
+    transform-origin: 50% 50%;
+    transition-property: transform,opacity;
+    transition-duration: .6s;
+    z-index: 99;
+    opacity: .2;
+}
+
+
+
+
+
+
+
+
+
+
+.textareabg {
+    background-color: #f9fafd;
+    width: 100%;
+}
+
+.content {
+    width: 100%;
+   display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.post-content {
+    min-height: auto;
+    display: inline-table;
+    width: 30%;
+    background: #f0f8ff;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid;
+    border-top-color: #003f7191;
+    border-left-color: #3688f4a8;
+    border-bottom-color: #193965;
+    border-right-color: #12305db5;
+    box-shadow: 0 2px 2px -1px #111d379c;
+}
+
+#app > main > div.content > div.post-content:first-child {
+    width: 98%;
+    padding: 10px;
+}
+
+.my-menu.for-mobile.mobile-scroll-down.d-inline.d-md-none {
+    display: block !important;
+    position: fixed;
+    right: 24px;
+    top: 20px;
+    width: 30px;
+    z-index: 9;
+    padding: 0 !important;
+    content: url(https://i1.beon.fun/24/36/3624/52/815952/icons8-dvoynaya-strelka-vniz-48.png);
+}
+[onclick="window.scroll({top: 0,behavior: 'smooth'})"] {
+    display: block !important;
+    position: fixed;
+    right: 24px;
+    bottom: 20px;
+    width: 30px;
+    z-index: 9;
+    content: url(https://i1.beon.fun/24/36/3624/52/815952/icons8-dvoynaya-strelka-vniz-48.png);
+    transform: rotateX(180deg);
+}
+
+
+.blog__tags:before {
+    content: '⬥';
+    position: absolute;
+    left: 0;
+    margin: -12px 0 0 16px;
+}
+
+.blog__tags:after {
+    content: '⬥';
+    position: absolute;
+    right: 16px;
+    top: 0px;
+    margin: -12px 0 0px 0px;
+}
+
+
+
+.navbar-brand {
+    position: fixed;
+    top: 780px;
+    left: 135px;
+    z-index: 2;
+    font-size: 0px !important;
+    content: url(https://i1.beon.fun/24/36/3624/87/815887/icons8-vyhod-48-1.png);
+    transform: rotateY(180deg);
+    background: linear-gradient(180deg, #21345caa, #7eb1ceaa) fixed, url(https://i.pinimg.com/originals/84/20/23/842023d0ec34cff7688c2a82501df619.jpg) no-repeat fixed top left / cover;
+    border: 1px solid #80a4d8;
+    padding: 10px 8px 10px 12px;
+    border-radius: 50%;
+    box-shadow: inset 0 0 2px 0px #233a69;
+}
+
+.blog__tags h3 {
+    font-size: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.blog__tags h3:after {
+    content: 'Категории';
+    font-size: 20px;
+    letter-spacing: 1px;
+    box-shadow: 0 -5px 1px -4px #81a5d85c;
+    width: 300px;
+    display: block;
+    margin: auto;
+    padding-top: 30px;
+    font-family: 'Bad Script', cursive;
+}
+
+.blog__tags h3 + .left-menu-text {
+    font-size: 0;
+    display: flex;
+    padding: 0;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    width: 240px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.blog__tags h3 + .left-menu-text a {
+    padding: 4px;
+    font-size: 14px !important;
+}
+
+
+
+a, div {
+    font-family: 'Play', sans-serif;
+    color: #8b9dc3 !important;
+}
+
+.blog__about a {
+    margin-left: 30px;
+    letter-spacing: 1px;
+    width: calc(100% - 60px);
+    padding: 6px 0 6px 40px;
+    display: flex;
+    font-size: 12px;
+    background: #f9fafd;
+    transition: 1s;
+    border-radius: 20px;
+    color: #8b9dc3 !important;
+    margin-bottom: 8px;
+}
+
+.blog__about a:hover {
+    text-shadow: -1px 0px 4px #8b9dc3;
+    color: #f9fafd !important;
+    box-shadow: inset 0px 0px 10px -2px #3b5998, inset 0px 0px 3px 30px #5c81b5, inset 0px 0px 0px 10px #89ade0;
+    background: #678bb6;
+}
+
+.blog__about [href="/p"]:before {
+    content: '';
+    background: url(https://i1.beon.fun/24/36/3624/72/815672/icons8-nastroyki-48.png) no-repeat center / cover;
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    margin: -4px 0px 0px -32px;
+    transition: 1s;
+}
+
+.blog__about [href="/drafts"]:before {
+    content: '';
+    background: url(https://i1.beon.fun/24/36/3624/73/815673/icons8-redaktirovanie-fayla-48.png) no-repeat center / cover;
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    margin: -4px 0px 0px -32px;
+    transition: 1s;
+}
+
+.blog__about .blog-subscribe:before {
+    content: '';
+    background: url(https://i1.beon.fun/24/36/3624/77/815677/icons8-dobavit-zakladku-48.png) no-repeat center / cover;
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    margin: -4px 0px 0px -32px;
+    transition: 1s;
+}
+
+.blog__about [href^="//beon.fun/rating/community/"]:before {
+    content: '';
+    background: url(https://i1.beon.fun/24/36/3624/70/815670/icons8-narisovannaya-zvezda-48.png) no-repeat center / cover;
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    margin: -4px 0px 0px -32px;
+    transition: 1s;
+}
+
+.blog__about [href="/design/disable"]:before {
+    content: '';
+    background: url(https://i1.beon.fun/24/36/3624/74/815674/icons8-temy-48.png) no-repeat center / cover;
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    margin: -4px 0px 0px -32px;
+    transition: 1s;
+}
+
+.blog__about [href^="//beon.fun/communities/"]:before {
+    content: '';
+    background: url(https://i1.beon.fun/24/36/3624/75/815675/icons8-informaciya-48-1.png) no-repeat center / cover;
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    margin: -4px 0px 0px -32px;
+    transition: 1s;
+}
+
+.blog__about .actionignore:before {
+    content: '';
+    background: url(https://i1.beon.fun/24/36/3624/71/815671/icons8-skryto-48.png) no-repeat center / cover;
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    margin: -4px 0px 0px -32px;
+    transition: 1s;
+}
+
+.blog__about h3 + .left-menu-text {
+    padding: 0;
+}
+
+.blog__tags {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    margin-bottom: 40px;
+}
+    
+.crumbs a:first-child span, .crumb-item:first-child {
+    position: fixed;
+    left: 0px;
+    top: 280px;
+    z-index: 9;
+    font-size: 20px;
+    width: 340px;
+    text-align: center;
+    font-weight: 100;
+    color: #81a5d8;
+    font-family: 'Bad Script', cursive;
+}
+.crumbs {
+    font-size: 0;
+}
+
+.blog__about {
+    font-size: 0;
+    margin-bottom: 30px;
+}
+
+.left-menu h3 {
+    background: transparent !important;
+    color: #80a5d8;
+}
+
+.blog__about:after {
+    content: '';
+    background: url(https://i1.beon.fun/24/36/3624/92/815492/1-01.png) no-repeat top center / contain;
+    height: 180px;
+    width: 180px;
+    position: absolute;
+    margin: 0 0 0 0;
+    top: 60px;
+    left: 80px;
+}
+
+.blog__about:before {
+    content: '';
+    background: url(https://i1.beon.fun/24/36/3624/29/815429/1-12.png) no-repeat top center / contain;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    margin: 0 0 0 0;
+    top: 50px;
+    left: 70px;
+    filter: hue-rotate(45deg);
+    border: 1px solid #81ccd82e;
+    border-radius: 50%;
+}
+
+.blog__about > h3:before {
+    content: '';
+    margin: 50px 0px 0px 114px;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border: 2px dashed #4f79c040;
+    border-radius: 50%;
+    -webkit-animation:spin 30s linear infinite;
+    -moz-animation:spin 30s linear infinite;
+    animation:spin 30s linear infinite;
+}
+
+.blog__about > h3:after {
+    content: '';
+    margin: -11px 0px 0px 54px;
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    background: url(https://i1.beon.fun/24/36/3624/28/815428/1-17.png) no-repeat;
+    background-size: contain;
+    animation: spin 30s linear infinite;
+    filter: invert(70%) sepia(18%) saturate(848%) hue-rotate(178deg) brightness(88%) contrast(92%);
+    opacity: 0.3;
+}
+
+.blog__about > h3 {
+    height: 200px;
+    font-size: 0;
+    background-color: transparent !important;
+    margin: 50px 0 80px 0;
+}
+
+
+@-moz-keyframes spin { 
+    100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 
+    100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 
+    100% { 
+        -webkit-transform: rotate(360deg); 
+        transform:rotate(360deg); } }
+
+body {
+    background: linear-gradient(180deg, #21345caa, #7eb1ceaa) fixed, url(https://i.pinimg.com/originals/84/20/23/842023d0ec34cff7688c2a82501df619.jpg) no-repeat fixed top left / cover;
+    animation: opacity 2s; 
+overflow-x: hidden;
+}
+
+div#app {
+    left: 350px;
+    position: relative;
+    padding: 0;
+    width: calc(100% - 360px);
+}
+
+div.left-menu {
+    position: fixed;
+    left: 0;
+    top: 0 !important;
+    width: 340px;
+    height: 100%;
+    background: #f9fafd;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border: none;
+    box-shadow: 1px 0px 2px -1px #111d379c;
+}
+
+
+@-webkit-keyframes opacity {
+    0% { opacity: 0; }
+   100% { opacity: 1; }
+}
+
+* {
+    outline: 0;
+    text-decoration: none !important;
+}
+
+.navbar {
+    all: unset;
+}
+
+.footer__infolinks.p-1, 
+#page__admincontact, 
+.pc-menu, .blog_total_counter, 
+#page__rendertime, .py-4 +.crumbs, 
+.user:before, 
+[src="/i/blog.png"], 
+[src="/i/user.png"],
+.m2, 
+.navbar-expand-md .navbar-nav, 
+.blog__about > h3 + .text-center img,
+.post__mood, 
+.post__musicplay, 
+.post__wish, 
+.blog:before,
+.content .post-content .post-avatar, 
+.post-content .post-title-date,
+.left-menu__friends, 
+.post-title-date + span, 
+.flag, 
+.blog__read-me .left-menu-text [href*=".beon.fun"], 
+#fnplayer-stop, 
+#fnplayer-volume-mask, 
+.pagination-goto, 
+.blog__last-comments, 
+#app > main > div.content > div.post-content > div.small-text + div + .text-right + div > .user.post-title-user, 
+#footer,
+#app > main > div.content > h1 + div > h1 + div > .post-title-user, 
+#app > main > div.content > div.textareabg > p, 
+#newpostform > form > p, 
+#messageform > div.textarea-wrapper + input + br,
+#app > main > div.content > div.post-content > .post-row + .container-fluid,
+.form__show-avatars,
+.community__moders,
+.community__members,
+.blog__read-me,
+[href="/members-activities"],
+[href="/p/manage_members"],
+[href="/p/groups"],
+#fnplayer-slider,
+#fnplayer-volume,
+.blog__about [action="/search"],
+.blog__about a img,
+#app > main > div.left-menu > div.left-menu__user-notification,
+.notifications__comments,
+.datebg,
+.post-title,
+.post-content a.user.post-title-user,
+.left-menu-text .mw-100,
+.tag:before,
+.content h1,
+.content h1 + h2,
+.comment-box h2,
+.post-content .user-drop-menu  {
+    display: none !important;
+}
+
+.fast-quote {
+    margin: 0;
+}
+
+.post-content .fa-exclamation-triangle {
+    display: none;
+}
+
+.fa-exclamation-triangle:before {
+    content: '';
+    background: url(https://i1.beon.fun/24/36/3624/19/828419/icons8-oshibka-48.png) no-repeat center / cover;
+    width: 24px;
+    height: 24px;
+    display: block;
+}
+
+
+.fa-trash-alt:before {
+    content: '';
+    background: url(https://i1.beon.fun/24/36/3624/16/820316/icons8-udalit-navsegda-48.png) no-repeat center / cover;
+    width: 24px;
+    height: 24px;
+    display: block;
+}
+
+.post-content .fa-quote-left:before {
+    display: none;
+}
+
+.fa-quote-left:before {
+    content: '';
+    background: url(https://i1.beon.fun/24/36/3624/15/828415/icons8-citata-48.png) no-repeat center / cover;
+    width: 24px;
+    height: 24px;
+    display: block;
+}
+
+  
+#beon-fnplayer {
+    all: unset;
+}
+
+#fnplayer-play {
+    position: absolute;
+    top: 155px;
+    left: 151px;
+    z-index: 9;
+    border: none;
+    padding: 0;
+    width: 0;
+    height: 0;
+}
+
+#fnplayer-play:before {
+    content: '❤';
+    font-size: 18px;
+    position: absolute;
+    margin: 2px 0 0px 2px;
+    color: #f9fafd;
+    transition: 1s;
+}
+
+#fnplayer-play:hover::before {
+    text-shadow: 0 0 4px #3867cf;
+}
+
+#fnplayer-play.paused:before {
+    color: #81a5d9 !important;
+    transition: 1s;
+}
+
+#fnplayer-play.paused {
+    border: none;
+}
+
+#fnplayer-play.paused:after {
+    content: '';
+    width: 240px !important;
+    background: url(https://i1.beon.fun/24/36/3624/91/815591/0.gif), #f9fafd;
+    box-shadow: inset -20px 0px 4px 1px #f9fafd, inset 20px 0px 4px 1px #f9fafd;
+    background-blend-mode: darken;
+    position: absolute;
+    margin: 160px 0 0px -115px;
+    height: 11px;
+    animation: opacity 2s; 
+}
+
+.modal-open {
+    padding-right: 8px !important;
+}
+
+body::-webkit-scrollbar {
+    height: 0px;
+    width: 8px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #2a4472;
+    box-shadow: inset 1px 0px 1px 0px #5e81a1;
+}
+
+body::-webkit-scrollbar-track {
+    box-shadow: inset 0px 0px 1px 0px #69a0c5;
+    background: #537ca2;
+}
+
+@media (max-width: 1450px) {
+.post__tags-list {
+    opacity: 0;
+}
+}
+
+@media (max-width: 1000px) {
+
+.fas {
+    font-size: 0 !important;
+    padding: 0 !important;
+}
+
+div.left-menu {
+     width: 80px;
+    overflow: hidden;
+}
+
+.navbar-brand {
+    all: unset;
+    position: fixed;
+    left: 0px;
+    top: 5px;
+    width: 80px;
+    height: 80px;
+    background: url(https://i1.beon.fun/24/36/3624/10/814810/01.png) no-repeat center / cover;
+    z-index: 9;
+    opacity: .6;
+border-radius: 30%;
+}
+
+.navbar-brand:hover {
+    opacity: 1;
+}
+
+.crumbs a:first-child span, .crumb-item:first-child {
+    all: unset;
+    left: 20px;
+    top: 120px;
+    background: url(https://i1.beon.fun/24/36/3624/42/818742/icons8-glavnaya-48.png) no-repeat center / cover;
+    width: 40px;
+    height:40px;
+    position: fixed;
+    z-index: 9;
+}
+
+.left-menu > div {
+    display: block;
+}
+
+div.left-menu::-webkit-scrollbar {
+    height: 0px;
+    width: 0px;
+}
+
+.blog__about:before,
+.blog__about:after,
+.blog__about > h3:before,
+.blog__about > h3:after {
+    all: unset;
+}
+
+.blog__about a {
+    font-size: 0;
+    padding: 8px 0px 0px 0px;
+    margin: 0px 0px 10px 15px;
+    width: 50px;
+    height: 50px !important;
+}
+
+#beon-fnplayer {
+    display: none;
+}
+
+.blog__about a:before {
+    width: 40px !important;
+    height: 40px !important;
+    margin-left: 5px !important;
+    background-size: cover !important;
+}
+
+.blog__about h3 + .left-menu-text {
+    margin: -150px 0 0 0;
+}
+
+.blog__tags {
+    display: none !important;
+}
+
+div#app {
+    left: 80px;
+    width: calc(100% - 80px);
+    overflow: hidden;
+}
+
+.content {
+    display: block;
+}
+
+.post-content {
+    width: calc(100% - 20px);
+}
+
+.menu__btn {
+    display: none !important;
+}
+
+span.comments_count span::before {
+    display: none;
+}
+
+.left-menu > div.mobile_open_menu {
+    display: none;
+}
+
+.blog__about {
+    margin-bottom: 0px;
+}
+
+body::-webkit-scrollbar {
+    height: 0px;
+    width: 0px;
+}
+
+div.crumbs {
+    margin: 0;
+    padding: 0;
+}
+
+#newpostform {
+    width: auto;
+    margin: 10px;
+}
+
+.textarea-wrapper > textarea {
+    width: 100%;
+    min-width: auto;
+}
+
+#app > main > div.content > div.post-content:first-child {
+    margin: 10px;
+    width: calc(100% - 20px);
+    padding: 10px;
+    background: #94acd8;
+    color: #f9fafd !important;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#app > main > div.content > div.post-content:first-child a {
+   color: #f9fafd !important;
+}
+
+.comment-box,
+.comment-box + .textareabg {
+    width: calc(100% - 20px);
+    margin: auto;
+}
+
+.post-avatar,
+.post-title-date + a {
+    display: none;
+}
+
+.post-title-date {
+    display: none;
+}
+
+.comment-base {
+    padding-top: 10px;
+}
+
+.navbar + .crumbs > .pagination {
+    float: right;
+    width: 40px;
+    height: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 550px;
+    left: 20px;
+    display: grid;
+    align-content: flex-start;
+    justify-content: center;
+}
+
+.navbar + .crumbs > .pagination > a:nth-child(2) {
+    width: 38px;
+    height: 38px;
+}
+
+.navbar + .crumbs > .pagination > a:last-child {
+    width: 38px;
+    height: 38px;
+}
+
+.post__tags-list {
+    opacity: 1;
+}
+
+.post__tags-list a {
+    font-size: 16px;
+}
+
+.post-content .row .post-opt {
+    padding: 6px 0px 0px 6px;
+}
+
+.comments_count span {
+    font-size: 0px;
+    content: '';
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    background: url(https://i1.beon.fun/24/36/3624/73/820073/icons8-tema-48.png) center / cover;
+    margin: 2px 0px 0 -34px;
+}
+
+span.comments_count a {
+    font-size: 0;
+}
+
+.modal-open {
+    padding-right: 0 !important;
+}
+
+div.post-content:first-child  .small-text {
+    font-size: 11px;
+    color: #f9fafd5c !important;
+}
+
+div.post-content:first-child .fas.fa-lock-open {
+    font-size: 10px;
+}
+
+.post__tags-list:before {
+    filter: saturate(0.5) brightness(2.5);
+}
+}
+
+@media (max-width: 480px) {
+.post__tags-list {
+    opacity: 0;
+}
+}
