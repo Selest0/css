@@ -700,7 +700,7 @@ div.left-menu {
     width: 150px;
     height: 50px;
     font-size: 0;
-    position: fixed;
+    position: fixed !important;
     left: -20px;
     top: 0;
 }
@@ -726,6 +726,7 @@ body {
     url(https://i1.beon.fun/24/36/3624/24/835524/pagebg.png) fixed;
 }
 
+[src="/i/halloween/cat-ghost.png"],
 .postsiblings.row,
 .user-drop-menu,
 span.comments_count span::before,
