@@ -1678,8 +1678,7 @@ div.left-menu:after {
     top: calc(66% + 54px);
     width: inherit;
     height: inherit;
-    background: url(https://i1.beon.fun/24/36/3624/57/855457/0.png) no-repeat,
-                              url(https://yip.su/rng9gfd.png), #1d1b37;
+    background: url(https://i1.beon.fun/24/36/3624/57/855457/0.png) no-repeat, #1d1b37;
 }
 
 .blog__tags:hover, 
