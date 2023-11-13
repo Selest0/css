@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
 div, a, span { font-family: 'Play', sans-serif; text-decoration: none !important; }
 
+.admin-notification {
+    background: #252344;
+}
+
  .blog__tags a:after {
     content: '|';
     margin-left: 10px;
