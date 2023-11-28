@@ -661,6 +661,7 @@ span[data-target="#deleteconfirmmodal"] {
     overflow: hidden;
     border-radius: 10px;
     box-shadow: 0 0 0 1px #1d1b37;
+    margin-left: 0 !important;
 }
 
  #usermenu {
