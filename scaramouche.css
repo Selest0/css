@@ -122,7 +122,7 @@ top: 100px !important;
 top: 0px !important;
 }
 
-.notifications__comments {
+.notifications__comments, .left-menu__user-notification {
     position: fixed;
     top: 0px;
     right: 2px;
