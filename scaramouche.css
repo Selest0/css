@@ -2451,10 +2451,9 @@ background: url(https://cdn.akamai.steamstatic.com/steamcommunity/public/images/
 }
 
 
-
 .comment-box .post-avatar img {
     min-height: 80px;
-    max-height: 80px
+    max-height: 80px;
     min-width: 80px;
     max-width: 80px;
 }
