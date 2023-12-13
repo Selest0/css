@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
 div, a, span { font-family: 'Play', sans-serif; text-decoration: none !important; }
 
+ .d-flex .left-menu__gift { 
+     overflow: hidden; 
+ }
+
 .admin-notification {
     background: #252344;
 }
