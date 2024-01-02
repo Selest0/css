@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
 div, a, span { font-family: 'Play', sans-serif; text-decoration: none !important; }
 
-[src="/i/logo2.png"], [src="/i/logo2.svg"],
+[src="/i/logo2.png"], [src="/i/logo2.svg"], 
+[src="/i/logo2-deer.png"], .font-snowblue,
 .admin-notification {
     display:none;
 }
