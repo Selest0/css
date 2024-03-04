@@ -34,9 +34,9 @@
     position: relative;
 }
 
-.post-content:first-child .fa-heart:before {
+/* .post-content:first-child .fa-heart:before {
     position: absolute !important;
-}
+} */
 
 .comment-box .comment-row .comment-base .mt-3 {
     background: #4c4f5f;
