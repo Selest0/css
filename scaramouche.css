@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
 div, a, span { font-family: 'Play', sans-serif; text-decoration: none !important; }
 
+.content .post-content.post-page h1 + .small-text + div + .text-right + .post-header + .post-row .post-avatar {
+    left: 5px;
+}
+
 [src="/i/logo2.png"], [src="/i/logo2.svg"], 
 [src="/i/logo2-deer.png"], .font-snowblue,
 .admin-notification {
