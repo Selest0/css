@@ -2052,7 +2052,7 @@ padding: 5px 10px;
 }
 
 .content .textareabg #preview-area .post-content { box-shadow: unset; }
-.content .post-content h1 + .small-text + div + .text-right + div { height: 0; }
+.content .post-content h1 + .small-text + div + .text-right + div { height: 64px; }
 
 .blog:before,
 [src="/i/halloween/cat-ghost.png"],
