@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+div, a { font-family: 'Play' !important; text-decoration: none !important; }
+@media (min-width: 1200px) {
+
+.blog__about:before {
+    content: '';
+    background: url(https://i1.beon.fun/24/36/3624/22/997822/0.gif) no-repeat center / cover;
+    position: absolute;
+    left: 70px;
+    top: 40px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 6px double #677491bf;
+}
+.blog__about:after {
+    content: '';
+    background: url(https://i1.beon.fun/24/36/3624/28/997828/Blade_Lineage_Salsu_Faust_Idle_Sprite.png) no-repeat center / cover;
+    width: 300px;
+    height: 360px;
+    position: absolute;
+    left: -130px;
+    bottom: -3px;
+    z-index: 9;
+}
+
+
+
+* {outline: 0;}
+
+
+.post-content.blog_total_counter {
+    margin: 0 !important;
+    font-size: 0;
+    height: 30vh;
+    background: url(https://sun9-32.userapi.com/impg/JkrZ59wjktsfX-77o7LIkYNjsDqOqtwHKpnY2w/7JXmMFyf9Q0.jpg?size=1920x1080&quality=95&sign=8eb1bb2c343d6fb58d63c386df2f067d&type=album) center / cover;
+    box-shadow: inset 0px 0px 8px 6px black;
+    background-blend-mode: color-dodge;
+    transition: 1s;
+
+}
+
+
+body:after {
+    content: '';
+}
+
+
+.bg-white {
+    background: #08080a;
+}
+
+.menu__btn {
+    position: fixed;
+    bottom: 50px;
+}
+
+#menu__toggle:checked ~ .menu__box {
+    visibility: visible;
+    height: calc(100% - 200px);
+    opacity: 1;
+}
+
+.menu__box {
+    right: unset;
+    left: 335px;
+    width: 90px;
+    height: 0;
+    bottom: 105px;
+    top: unset;
+    opacity: 0;
+    transition: 1s;
+}
+.blog__tags a {
+font-size: 20px!important;
+    background: bisque;
+    padding: 0px 20px;
+    margin: 6px 2px;
+    text-wrap: nowrap;
+}
+.blog__tags h3 + .left-menu-text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 0;
+}
+.datebg {
+    border-bottom: 2px solid;
+    margin: 0;
+}
+
+
+
+
+
+.navbar-brand img, .font-snowblue, .container .m2, .pc-menu,
+a.my-menu.for-mobile.d-none.d-md-inline, .blog__about h3,
+.blog__about img,
+.blog__last-comments,
+.blog__read-me
+ {
+    display: none !important;
+}
+
+.hamburger-menu {
+    display: block;
+}
+
+.navbar-brand {
+    position: absolute;
+    top: 0px;
+    width: 60px;
+    height: 60px;
+    left: 16px;
+    font-size: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-brand:after {
+    content: 'Bn';
+    font-size: 24px;
+}
+
+
+html {
+    box-shadow: inset 0 0 0px 6px black;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    height: calc(100% - 60px);
+    width: calc(100% - 60px);
+    max-width: 1920px;
+    margin: 30px;
+    position: fixed;
+    background: url(https://i1.beon.fun/24/36/3624/25/997825/0-2.jpg) repeat, black;
+    background-blend-mode: lighten;
+    box-shadow: 0 0 0 3px black, 0px 0px 0px 7px #08080a, 0px 0px 0px 20px black;
+    color: #90969b;
+}
+
+
+
+
+
+.navbar {
+    left: 340px;
+    width: 100px;
+    height: 100%;
+    position: absolute;
+    border-right: 3px solid black;
+    border-left: 3px solid black;
+    overflow: hidden;
+}
+
+.left-menu h3 {
+    background: black !important;
+}
+
+a {
+    color: grey;
+}
+
+
+
+.crumbs {
+    display: none;
+}
+
+.content {
+     width: calc(100% - (25% + 441px));
+    height: calc(100% - 60px);
+    position: fixed;
+    margin: 30px 0;
+    top: 3px;
+    overflow: auto;
+    left: 473px;
+}
+
+.avatar-select-list::-webkit-scrollbar, 
+.content::-webkit-scrollbar, .left-menu::-webkit-scrollbar {
+    width: 4px;
+}
+.avatar-select-list::-webkit-scrollbar-thumb,
+.content::-webkit-scrollbar-thumb, .left-menu::-webkit-scrollbar-thumb {
+    background-color: #000000;
+}
+
+
+div.left-menu {
+    position: absolute;
+    width: calc(25% - 50px);
+    height: 100%;
+    top: 0;
+    right: 0;
+    margin: 0;
+    background: #08080a;
+    border: navajowhite;
+    border-left: 4px solid black;
+    padding-left: 6px;
+    box-shadow: inset 4px 0px #08080a, inset 6px 0px black;
+}
+
+div#app {
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background: #08080a;
+}
+
+
+.blog__about {
+    position: fixed;
+    left: 30px;
+    top: 30px;
+    width: 340px;
+    height: calc(100% - 60px);
+    padding: 280px 10px 0px 10px;
+    text-align: right;
+    
+}
+
+
+#csseditortext {
+background: #0e0e0e;
+    color: #8996a1;
+}
+.textareabg {
+    background-color: #070503;
+}
+.textarea-wrapper > textarea {
+    background: black;
+    color: aliceblue;
+    border: none;
+}
+.avatar-select-list {
+    background: black;
+}
+.avatar-select-label {
+border: 4px solid #08080a; 
+}
+
+}
