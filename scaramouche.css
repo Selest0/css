@@ -689,7 +689,7 @@ span[data-target="#deleteconfirmmodal"] {
     height: 24px;
     position: absolute;
     top: 10px;
-    left: 73px;
+    left: 70px;
     transition: 2s .5s;
 }
 #usermenu__gift {
@@ -721,7 +721,7 @@ span[data-target="#deleteconfirmmodal"] {
     height: 24px;
     position: absolute;
     bottom: 10px;
-    left: 74px;
+    left: 70px;
     transition: 2s .5s;
 }
 #usermenu__interview {
