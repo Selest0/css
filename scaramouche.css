@@ -625,6 +625,7 @@ span[data-target="#deleteconfirmmodal"] {
     overflow: hidden;
     margin: 0;
     line-height: 1.5;
+    padding-left: 90px;
 }
 
 
