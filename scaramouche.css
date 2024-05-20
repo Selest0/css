@@ -141,6 +141,7 @@ top: 0px !important;
     box-shadow: 0 0 2px 1px #1d1b37;
     padding: 4px 10px;
     z-index: 1;
+    max-width: 50%;
 }
 
 
