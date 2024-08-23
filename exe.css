@@ -1,0 +1,1207 @@
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+div, a { font-family: 'Play' !important; text-decoration: none !important; }
+ @media (min-width: 700px) {
+
+.blog__about .text-center {
+    position: fixed;
+        left: 0;
+        top: 10vh;
+        width: 20vw;
+z-index: 99999;
+        pointer-events: none;
+}
+.blog__about .mw-100 {
+        pointer-events: auto;
+        border: 10px solid #f0f0f0;
+        outline: 1px solid #999999;
+        padding: 1px;
+        background: #999999;
+        box-shadow: 0px -20px 0 0px #add8e6, 0px -21px 0 0px #fff, 0 -21px 0 1px #999, 
+                                  5px -20px 0 0px rgb(195 205 213), 5px 5px 0 0px rgb(195 205 213);
+}
+
+.user::before {
+    display: none;
+}
+.user.post-title-user {
+        font-size: 14px;
+        max-width: calc(50% - 100px);
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        height: 25px;
+        margin: 2px 0px 0 0;
+}
+
+a.user.post-title-user::after {
+    content: '.txt';
+
+}
+a.user.post-title-user::before {
+    content: '—';
+    display: inline-block !important;
+        margin: 0 8px 0 0px;
+}
+ 
+
+.menu__box .menu__item:hover {
+        transition: 0s;
+        color: unset !important;
+}
+ .menu__box .menu__item {
+        text-align: left;
+        border: 1px solid #999999;
+        box-shadow: inset 1px 1px 1px 1px #fff;
+        transition: all 0.1s ease-in-out;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-size: 12px !important;
+        height: 28px;
+        padding: 4px 10px;
+        border-bottom: 1px solid transparent;
+        color: #000 !important;
+}
+.menu__box {
+        top: unset;
+        height: 0%;
+        bottom: 50px;
+        left: 0px;
+        width: 18vw;
+        padding: 0px 0 0 0;
+        background: #f0f0f0;
+        box-shadow: inset -1px 1px 0 #999999, inset 1px 2px 0 #fff;
+}
+.menu__box::-webkit-scrollbar {
+        width: 0px;
+}
+#menu__toggle:checked ~ .menu__box {
+    left: 0;
+        height: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   .navbar:after {
+        content: '';
+        width: 66px;
+        height: 22px;
+        background: url(https://i1.beon.fun/24/36/3624/44/1174644/44.png) no-repeat center;
+        position: absolute;
+        right: 10px;
+        top: 8px;
+    }
+
+
+[action="/search"] {
+        position: fixed;
+        right: 1vw;
+        top: 50%;
+        width: 18vw;
+        height: 80px;
+        border: 1px solid;
+        resize: both;
+        overflow: auto;
+        background: #d1d1d1;
+        z-index: 999999;
+        font-size: 12px;
+}
+    #beon-fnplayer {
+        position: fixed;
+        right: 2vw;
+        top: 20vh;
+        width: 16vw;
+        height: 80px;
+        border: 1px solid;
+        resize: both;
+        overflow: auto;
+    }
+
+
+    .left-menu__user-notification.left-menu__unread-notifications {
+        position: fixed;
+        left: 1vw;
+        top: calc(37vh + 200px);
+        width: 18vw;
+        height: 10vh;
+        border: 1px solid;
+        resize: both;
+        overflow: auto;
+        background: #d1d1d1;
+        z-index: 9999;
+    }
+    .notifications__comments {
+        background: #d1d1d1;
+        position: fixed;
+        left: 2vw;
+        top: calc(25vh + 150px);
+        height: 12vh;
+        width: 17vw;
+        z-index: 999;
+        border: 1px solid;
+        resize: both;
+        overflow: auto;
+    }
+    .left-menu__user-notification.left-menu__unread-message {
+        background: #d1d1d1;
+        position: fixed;
+        left: 1vw;
+        top: 100px;
+        height: 25vh;
+        width: 17vw;
+        border: 1px solid;
+        resize: both;
+        overflow: auto;
+        z-index: 999;
+    }
+
+.avatar-select-label-selected {
+    border: 4px solid #add8e6 !important;
+}
+.avatar-select-list {
+width: 184px;
+}
+
+.avatar-select-label {
+width: 80px;
+height: fit-content;
+    transition: 1s;
+}
+
+
+#messageform input {
+text-transform: lowercase;
+}
+form {
+    padding: 10px;
+}
+
+.post-content a {
+        color: black;
+}
+
+h1 + .alert {
+        position: absolute;
+        z-index: 999;
+        height: 40px;
+        top: 0;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        background: linear-gradient(45deg, lightblue, white);
+        color: #474747;
+        border-color: #add8e6;
+}
+h1 + .alert,
+.alert.alert-warning,
+.alert.alert-success {
+        background: linear-gradient(45deg, lightblue, white);
+        color: #474747;
+        border-color: #add8e6;
+        border-radius: 0;
+
+}
+
+
+
+
+.post-content.post-page .small-text + div > div > a  {
+        margin: 0 8px;
+}
+
+
+
+.container-fluid.post-content.p-3 .row .btn-outline-primary:hover {
+    color: #fff;
+    background-color: #add8e6;
+    border-color: #999;
+}
+.container-fluid.post-content.p-3 .row .btn-outline-primary {
+        border: 1px solid;
+        border-color: lightblue;
+        color: #000;
+        background: white;
+        border-radius: 0px;
+}
+.container-fluid.post-content.p-3 {
+    width: unset;
+}
+
+.post-content.post-page .post__tags-list + [style="font-size: 1rem;"] {
+display: flex;
+    align-items: center;
+}
+.post-content.post-page .post-opt > [style="font-size: 1rem;"] {
+    font-size: unset !important;
+        height: 25px;
+}
+
+
+
+
+.post-content.post-page {
+    margin: 40px 20px 40px 20px !important;
+    padding: 0px 0 10px 0;
+
+}
+ 
+.post-content.post-page .post-text.comment-text {
+        background: #ffffff;
+        border: 1px solid;
+        border-color: #999999 #d0d0d0 #d0d0d0 #999999;
+        margin: 10px 10px 10px 10px;
+        max-width: 100%;
+        padding: 2px 6px 0px 6px;
+}
+.post-content.post-page .post-opt {
+        max-width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        padding: 0;
+        margin: 0px 10px !important;
+    }
+.post-content.post-page .post__tags-list {
+        width: 100%;
+        background: unset;
+        border: unset;
+        font-size: 0;
+        margin: 0px 0px 4px 0px;
+        letter-spacing: 0;
+    }
+.post-content.post-page .post__mood,
+.post-content.post-page .post__musicplay,
+.post-content.post-page .post__wish {
+        border: 1px solid;
+        border-color: #999 #d0d0d0 #d0d0d0 #999;
+        margin: 2px 6px 6px 0px;
+        padding: 0px 6px;
+        color: #000000 !important;
+        text-transform: lowercase;
+        font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.post-content.post-page h1 {
+        position: absolute;
+        z-index: 99;
+        margin: 8px 0px 0px 26px;
+}
+.post-content.post-page .small-text + div {
+        position: absolute;
+        z-index: 9999;
+        bottom: 8px;
+        right: 0;
+        margin: 0 10px;
+        height: 27px;
+        width: max-content;
+}
+.post-content.post-page .small-text {
+        position: absolute;
+        right: 12px;
+        top: 37px;
+        font-size: 10px;
+        z-index: 999;
+        color: #d0d0d0;
+}
+.post-content.post-page h1 {
+        font-size: 14px;
+        width: calc(100% - 100px);
+        height: 25px;
+        display: block;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        color: black;
+}
+
+.comment-base .mt-3 {
+    display: flex;
+    align-items: center;
+}
+ 
+.container-fluid .row .col-md-6 a,
+[type=reset], [type=submit], button, html [type=button],
+.content a[href*="/subscribe"],
+.content a[href*="/unsubscribe"],
+[data-target="#deleteconfirmmodal"],
+.post-text.comment-text + .post-opt a {
+        font-size: 12px;
+        padding: 2px 8px;
+        background: #f0f0f0;
+        border: 1px solid #d0d0d0;
+        box-shadow: inset 1px 1px 0 #fff;
+        transition: all 0.1s ease-in-out;
+        text-decoration: none !important;
+        text-transform: lowercase;
+        color: black !important;
+        display: inline-block;
+        max-height: 25px;
+        overflow: hidden;
+        word-break: break-all;
+
+margin: unset;
+    }
+.container-fluid .row .col-md-6 a,
+[type=reset], [type=submit], button, html [type=button] {
+        font-size: 14px;
+        padding: 0px 6px;
+}
+
+.container-fluid .row .col-md-6 a:hover,
+.content a[href*="/subscribe"]:hover,
+.content a[href*="/unsubscribe"]:hover,
+[data-target="#deleteconfirmmodal"]:hover,
+[type=reset]:hover, 
+[type=submit]:hover, 
+button:hover, 
+html [type=button]:hover,
+.post-text.comment-text + .post-opt a:not(.tag):hover {
+        background: #e0e0e0;
+        border: 1px solid #c0c0c0;
+        color: #555;
+        transform: translateY(1px) !important;
+        box-shadow: inset 1px 1px 0 #eee;
+}
+
+
+
+
+
+
+
+
+
+ 
+ .post-content .post-opt a {
+    color: black;
+}
+.post-content  > [style="margin-left: 5px;"] {
+        background: url(https://win98icons.alexmeub.com/icons/png/message_file-1.png) no-repeat left 10px center, linear-gradient(45deg, lightblue, #f0f0f0);
+        margin: 0px !important;
+        border-bottom: 1px solid #999;
+        box-shadow: 0px 1px 0 #fff;
+        height: 40px;
+        padding: 8px 0px 0px 30px;
+        overflow: hidden;
+        position: relative;
+        display: flex;
+}
+
+
+
+h1 + .row {
+    display: inline-block;
+}
+
+h4, .post-content.p-2 > .mb-3 {
+        text-transform: lowercase;
+}
+.post-content.p-2 a {
+        color: lightblue !important;
+}
+.post-title {
+    color: white;
+}
+.post-title, h1, h2, h4 {
+    font-size: 18px;
+    height: 40px;
+    margin: 0;
+    align-content: center;
+    padding: 0 8px 0 10px;
+}
+
+
+
+
+
+
+[onclick="return showSpoiler(this)"] {
+    text-transform: lowercase;
+    letter-spacing: 1px;
+}
+.quotation {
+    border-left: 3px solid #add8e6;
+}
+.content .datebg:before {
+        content: '';
+        width: 10px;
+        height: 1px;
+        background: lightblue;
+        margin: 12px 4px 0px 0px;
+}
+.content .datebg:after {
+        content: '';
+        width: 10px;
+        height: 1px;
+        background: lightblue;
+        margin: 12px 0px 0px 4px;
+}
+
+.content .datebg {
+        font-weight: 100;
+        margin: 30px;
+        padding: 0;
+        color: lightblue;
+        font-size: 14px;
+        display: flex;
+        justify-content: center;
+}
+
+
+    .post-content .post-text a:not(.row.w-100.mt-3 a)  {
+        color: lightblue !important;
+}
+
+a.tag::after {
+        content: "• " !important;
+        color: lightblue;
+        margin: 0 4px 0 0px;
+        font-weight: bold;
+}
+
+
+.post-content.post-page .post-likes-count,
+.post-opt.col-md-6:not(.text-right) > span:first-child,
+.post-opt.col-md-6 > .post-likes-count {
+    background: lightblue  !important;
+    color: white !important;
+    letter-spacing: 0 !important;
+}
+
+
+.post-header a:hover {
+color: white !important; 
+transition: .2s;
+}
+
+h3.left-menu-text:after {
+        letter-spacing: 1px;
+}
+.row.w-100.mt-3 .post-opt {
+        font-size: 1px;
+        letter-spacing: 1px;
+}
+
+.liked .fas, .reposted .fas, .bookmarked .fas {
+    color: #ffffff !important;
+}
+.liked, .reposted, .bookmarked {
+    background: lightblue !important;
+    box-shadow: inset 1px 1px 0 #eee !important;
+}
+.comments_count a {
+    color: black;
+}
+
+
+.comment-text + .post-opt.mt-3 a,
+.fast-quote,
+[onclick="deleteComment(this)"],
+
+.repostbutton, 
+.bookmarkbutton,
+ .complaintbutton,
+.post-opt.col-md-6 > a,
+.post-opt.col-md-6 > span,
+.post-likes-count, 
+.likebutton {
+        font-size: 12px;
+        padding: 2px 8px;
+        background: #f0f0f0;
+        border: 1px solid #d0d0d0;
+        box-shadow: inset 1px 1px 0 #fff;
+        transition: all 0.1s ease-in-out;
+        text-decoration: none !important;
+        text-transform: lowercase;
+        color: black !important;
+        display: inline-block;
+        max-height: 24px;
+        overflow: hidden;
+        word-break: break-all;
+
+margin: unset;
+}
+
+.comment-text + .post-opt.mt-3 a:hover,
+.fast-quote:hover,
+[onclick="deleteComment(this)"]:hover,
+ .menu__box .menu__item:hover,
+.repostbutton:hover, 
+.bookmarkbutton:hover,
+.complaintbutton:hover,
+.post-opt.col-md-6 > a:hover,
+.post-opt.col-md-6 > span:hover,
+.post-likes-count:hover, 
+.likebutton:hover {
+        background: #e0e0e0;
+        border: 1px solid #c0c0c0;
+        color: #555;
+        transform: translateY(1px) !important;
+        box-shadow: inset 1px 1px 0 #eee;
+}
+
+.post-opt.col-12.col-md-6 > .post__mood,
+.post-opt.col-12.col-md-6 > .post__musicplay,
+.post-opt.col-12.col-md-6 > .post__wish {
+        border: 1px solid;
+        border-color: #999 #d0d0d0 #d0d0d0 #999;
+        margin: 2px 4px 6px 0px;
+        padding: 0px 6px;
+        color: #000000 !important;
+        text-transform: lowercase;
+        font-size: 12px;
+}
+
+
+.post-opt.col-md-6.text-right {
+    right: 0;
+        bottom: 0;
+    position: absolute;
+    justify-content: flex-end;
+        max-width: max-content !important;
+}
+
+.post-opt.col-12.col-md-6 .post__tags-list  {
+        width: 100%;
+        background: unset;
+        border: unset;
+        font-size: 0;
+        margin: 0px 0px 8px 0px;
+        letter-spacing: 0;
+}
+.post-content.post-page .post__tags-list a,
+.post-opt.col-12.col-md-6 .post__tags-list a {
+        font-size: 12px;
+        word-break: keep-all;
+        margin: 4px 4px 4px 0px;
+        padding: 0px 6px;
+        background: #ffffff;
+        border: 1px solid #d0d0d0;
+        color: #999;
+        transition: all 0.1s ease-in-out;
+        display: inline-block;
+        direction: rtl;
+        border-color: #999 #d0d0d0 #d0d0d0 #999;
+}
+ 
+.row.w-100.mt-3 .col-md-6,
+.post-opt.col-12.col-md-6 {
+        max-width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+padding: 0;
+}
+.post-row .row.w-100.mt-3 {
+        background: #f0f0f0;
+        position: relative;
+        z-index: 99;
+        max-height: max-content;
+        border-top: 1px solid #d0d0d0;
+        box-shadow: 0px 2px 0 2px #f0f0f0;
+        width: calc(100% + 14px) !important;
+        margin: 2px 0px 0px -7px !important;
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 10px 0 0 0;
+}
+
+
+
+
+.post-header:after {
+        content: '';
+        width: 66px;
+        height: 22px;
+        background: url(https://i1.beon.fun/24/36/3624/44/1174644/44.png) no-repeat center;
+        position: absolute;
+        right: 10px;
+        top: 9px;
+}
+
+.post-row > div.post-text  {
+    background: #ffffff;
+    border: 1px solid;
+    border-color: #999999 #d0d0d0 #d0d0d0 #999999;
+    margin: 10px 10px 10px 10px;
+        max-width: 100%;
+padding: 2px 6px 0px 6px;
+}
+.post-row > div:nth-child(1) {
+        border-right: 1px solid #999;
+        padding: 8px 4px 0px 2px;
+        display: none; /* вернусь позже */
+        overflow: hidden;
+        height: 84px;
+}
+.post-title {
+    font-size: 14px;
+max-width: 50%;
+        height: 25px;
+        display: block;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+color: black;
+}
+.post-header {
+        background: url(https://win98icons.alexmeub.com/icons/png/message_file-1.png) no-repeat left 10px center, linear-gradient(45deg, lightblue, #f0f0f0);
+        margin: 0px !important;
+        border-bottom: 1px solid #999;
+        box-shadow: 0px 1px 0 #fff;
+        height: 40px;
+        padding: 8px 0px 0px 30px;
+        overflow: hidden;
+position: relative;
+}
+
+.left-menu .left-menu-text a:hover {
+    color: lightblue;
+    transition: 0s;
+}
+.left-menu__friends > div:nth-last-of-type(2) {
+    margin: 0  !important;
+padding-bottom: 20px;
+}
+
+.left-menu__friends .right-menu-text,
+.blog__gifts .right-menu-text {
+        font-size: 0px;
+        text-align: left;
+        border: 1px dashed #d0d0d0;
+        width: max-content;
+        padding: 0px 6px 0 6px;
+        margin: -14px 0px 10px 14px  !important;
+transition: 1s;
+        z-index: 9;
+        position: relative;
+}
+.left-menu__friends .right-menu-text:hover,
+.blog__gifts .right-menu-text:hover {
+        background: lightblue;
+}
+.left-menu__friends .right-menu-text:hover a,
+.blog__gifts .right-menu-text:hover a {
+        color: white;
+}
+.left-menu__friends .right-menu-text a:after,
+.blog__gifts .right-menu-text a:after {
+    font-size: 12px;
+    content: 'показать детали';
+}
+.left-menu__friends .right-menu-text:before,
+.blog__gifts .right-menu-text:before{
+         content: '';
+        position: absolute;
+        width: 14px;
+        height: 1px;
+        border-bottom: 1px dashed #d0d0d0;
+        margin: 12px 0px 0px -20px;
+}
+.blog__last-comments > h3.left-menu-text {
+    font-size: 0;
+}
+.blog__last-comments > h3:after {
+    font-size: 14px;
+content: 'активность';
+}
+.blog__iread > h3.left-menu-text {
+    font-size: 0;
+}
+.blog__iread > h3:after {
+    font-size: 14px;
+content: 'внешние ссылки';
+}
+.blog__read-me > h3.left-menu-text {
+    font-size: 0;
+}
+.blog__read-me > h3:after {
+    font-size: 14px;
+content: 'Пользователи';
+}
+.blog__gifts > h3.left-menu-text {
+    font-size: 0;
+}
+.blog__gifts > h3:after {
+    font-size: 14px;
+content: 'артефакты';
+}
+.left-menu__friends > h3.left-menu-text {
+    font-size: 0;
+}
+.left-menu__friends > h3:after {
+    font-size: 14px;
+content: 'утилиты';
+}
+ 
+.blog__gifts .d-flex {
+        padding: 14px 0px 26px 8px !important;
+        border-left: 1px dashed #d0d0d0;
+        margin: -10px 10px -8px 0px;
+}
+
+
+.left-menu__gift {
+    content: url(https://win98icons.alexmeub.com/icons/png/regedit_file-0.png);
+    max-width: 22%;
+    width: fit-content;
+}
+
+
+.left-menu a, body {
+    color: black;
+}
+
+.left-menu__friends,
+.blog__read-me .readertime,
+.blog__last-comments div.left-menu-text:not(class) {
+    color: #999;
+}
+
+
+   .left-menu .left-menu-text a {
+    white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        width: 100%;
+        display: block;
+       font-size: 12px !important;
+    transition: 2s;
+        text-transform: lowercase;
+}
+
+
+
+.blog__about > h3.left-menu-text {
+    margin: 0px 0px 0px -10px;
+    background: url(https://i1.beon.fun/24/36/3624/29/1170529/3.png) no-repeat left center, transparent !important;
+    color: black;
+        border: unset;
+        padding: 6px 0px 4px 22px !important;
+       font-size: 0px;
+        text-transform: uppercase;
+}
+.blog__about > h3.left-menu-text:after {
+    content: 'О программе';
+       font-size: 14px;
+}
+
+    .left-menu .left-menu-text a:after {
+        content: '◉';
+        position: absolute;
+        left: 6px;
+        font-size: 14px;
+    }
+
+.left-menu .left-menu-text a:before {
+        content: '';
+        position: absolute;
+        width: 7px;
+        height: 1px;
+        border-bottom: 1px dotted #d0d0d0;
+        margin: 11px 0px 0px -23px;
+}
+
+.blog__tags .left-menu-text {
+ display: flex;
+        flex-direction: column;
+        font-size: 0;
+}
+.blog__tags h3.left-menu-text:after {
+   content: 'категории';
+        font-size: 14px;
+}
+.blog__about {
+        display: flex;
+        flex-direction: column;
+        font-size: 0;
+}
+.blog__about a {
+        font-size: 12px;
+}
+
+[class^="blog_"], .left-menu__friends {
+    padding-left: 20px;
+        background: white;
+        max-width: calc(16vw - 18px);
+}
+.left-menu .left-menu-text {
+        padding-left: 22px;
+        padding-right: 20px;
+        border-left: 1px dashed #d0d0d0;
+        display: flex;
+        flex-direction: column-reverse;
+        position: relative;
+}
+.left-menu__friends .left-menu-text  {
+        flex-direction: column;
+}
+
+.navbar + .crumbs .pagination span + a,
+.navbar + .crumbs .pagination a:last-child {
+        background: #f0f0f0;
+        width: 26px;
+        border: 1px solid #d0d0d0;
+        box-shadow: inset 1px 1px 0 #fff;
+        color: #999;
+   transition: all 0.1s ease-in-out;
+}
+.navbar + .crumbs .pagination span + a:hover,
+.navbar + .crumbs .pagination a:last-child:hover {
+    background: #e0e0e0;  
+    border: 1px solid #c0c0c0;  
+        color: #555;
+        transform: translateY(1px);
+        box-shadow: inset 1px 1px 0 #eee;
+}
+
+.navbar + .crumbs .pagination span + a {
+        margin-right: 6px;
+}
+.navbar + .crumbs .pagination span + a:after {
+        content: '🡠';
+        font-size: 15px;
+        margin: 0px 0px 0px 4px;
+} 
+.navbar + .crumbs .pagination a:last-child:after {
+        content: '🡢';
+        font-size: 15px;
+        margin: 0px 0px 0px 4px;
+} 
+.navbar + .crumbs .pagination { 
+       position: absolute;
+        right: 0;
+        width: 58px;
+        height: 26px;
+        top: 40px;
+        background: url(https://i1.beon.fun/24/36/3624/12/1169412/11.png);
+        overflow: hidden;
+        border-radius: unset;
+}
+
+
+.navbar + .crumbs {
+all: unset;
+position: absolute;
+top: 10px;
+left: 106px;
+font-size: 0;
+width: calc(100% - 116px);
+z-index: 9;
+}
+.navbar  + .crumbs > a:first-child,
+.navbar  + .crumbs span.crumb-item:first-child {
+font-size: 12px;
+pointer-events: none;
+        font-weight: unset;
+color: black;
+height: 20px;
+        display: block;
+        overflow: hidden;
+}
+.navbar  + .crumbs > a:first-child:before,
+.navbar  + .crumbs span.crumb-item:first-child:before  {
+content: '—';
+margin-right: 4px;
+}
+.navbar  + .crumbs > a:first-child:after,
+.navbar  + .crumbs span.crumb-item:first-child:after  {
+content: '.exe';
+}
+
+
+.py-4 + .crumbs {
+        position: absolute;
+        top: 40px;
+        width: 100%;
+        height: 46px;
+        border-bottom: 1px solid;
+        border-top: 1px solid;
+        background: white;
+        border: 10px solid #f0f0f0;
+        border-right: 78px solid #f0f0f0;
+        box-shadow: inset 0px 1px 2px -1px #999, inset 0 0px 2px 0px #999, 0px -1px 0px 0px #fff, 0px -2px 0px 0px #999, 0px 1px 0px 0px #999, 0px 2px 0px 0px #fff;
+        font-size: 0px;
+        align-content: center;
+        margin: 0 !important;
+        text-transform: lowercase;
+        overflow: hidden;
+}
+.py-4 + .crumbs span {
+    font-size: 12px;
+        font-weight: unset;
+        color: black;
+}
+.py-4 + .crumbs:before {
+    content: 'https://';
+    font-size: 12px;
+}
+.py-4 + .crumbs span.crumb-item:first-child:after {
+    content: '.com/';
+}
+.py-4 + .crumbs [href="/"] span:first-child:after {
+    content: '.com/';
+}
+.py-4 + .crumbs span:after {
+    content: '/';
+color: black;
+}
+
+ .navbar {
+        position: absolute;
+        height: 40px;
+        overflow: hidden;
+        width: 100%;
+        background: linear-gradient(46deg, lightblue 60%, #f0f0f0);
+}
+.navbar .container {
+    position: absolute;
+    left: 0;
+        flex-wrap: nowrap !important;
+}
+.navbar-expand-md>.container {
+        padding-left: 15px;
+    }
+
+
+.navbar-brand {
+    font-size: 14px;
+    font-weight: unset;
+        color: black !important;
+}
+.navbar .m2 {
+    display: none;
+}
+.navbar-brand:before {
+     content: url(https://i1.beon.fun/24/36/3624/87/1168887/022.png);
+        margin: 0px 4px 0px 0px;
+}
+
+.post-content {
+    background: #f0f0f0;
+    border: 1px solid #ffffff;
+    outline: 1px solid #999999;
+    margin: 40px 20px !important;
+        position: relative;
+        min-height: 60px !important;
+        overflow: hidden;
+}
+
+
+
+
+
+::selection {
+        color: white;
+        background: #add8e6ad;
+}
+
+ ::-webkit-scrollbar {
+    background-color: transparent;
+}
+
+ ::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, lightblue, #add8e642);
+    border: 6px solid transparent;
+    background-clip: padding-box;
+        min-height: 100px;
+}
+
+.left-menu h3 {
+        color: white;
+        font-size: 14px;
+        background: lightblue !important;
+        height: 26px;
+        padding: 4px 0px 0px 10px !important;
+        margin: 5px 10px 5px 0px;
+        overflow: hidden;
+        inset-area: unset;
+        display: block !important;
+    text-transform: uppercase;
+}
+
+.hamburger-menu {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 10px;
+    height: 50px;
+    background: #f0f0f0;
+    border-top: 1px solid #d0d0d0;
+    box-shadow: inset 0 1px 0 #ffffff;
+        z-index: 99999;
+}
+
+.left-menu {
+    display: grid;
+}
+.blog__about {
+    order: 1;
+}
+.blog__tags {
+    order: 2;
+}
+.blog__last-comments {
+    order: 3;
+}
+.blog__iread {
+    order: 4;
+}
+.blog__read-me {
+    order: 5;
+}
+.blog__gifts {
+    order: 6;
+        font-size: 0;
+}
+.left-menu__friends {
+    order: 7;
+}
+
+div.left-menu {
+    position: absolute;
+    overflow: auto;
+    overflow-x: hidden;
+        height: calc(100% - 110px);
+        margin: 100px 14px 10px 10px;
+    width: 16vw;
+    background: #fff;
+    border: 1px solid;
+    border-color: #999999 #d0d0d0 #d0d0d0 #999999;
+        font-size: 12px;
+        padding: 10px 0px 10px 0px;
+}
+ .content {
+    position: absolute;
+        overflow: auto;
+        right: 10px;
+        height: calc(100% - 110px);
+        margin-top: 100px;
+    width: calc((100% - 16vw) - 34px);
+    background: #ffffff;
+    border: 1px solid;
+    border-color: #999999 #d0d0d0 #d0d0d0 #999999;
+        padding: 10px;
+}
+
+html {
+    background: #d4dfe8;
+}
+div#app {
+    background: #f0f0f0;
+    border: 1px solid #ffffff;
+    outline: 1px solid #999999;
+    box-shadow: 3px 3px 0 rgba(50, 50, 50, .1);
+
+        position: fixed;
+        inset-area: center;
+        padding: 0;
+        width: 60vw;
+        margin: 40px auto;
+        height: calc(100vh - 40px - min(130px, calc(13vh)));
+
+    resize: both;
+    overflow: auto;
+    max-width: 90%;
+    max-height: calc(100% - 100px);
+}
+
+
+
+
+
+
+
+
+#csseditortext {
+    height: 400px  !important;
+    overflow: auto !important; 
+        margin-bottom: 10px;
+}
+
+[src="/i/offline.png"],
+[src="/i/online.png"],
+.fas.fa-lock-open,
+.post-content.post-page .container-fluid,
+.content .post-content[style="min-height: auto;"],
+.load_ignored_comments,
+.blog:before,
+.content > h1,
+.post-title-date + span,
+.flag,
+.tag:before,
+.post-content .post-title-date,
+.user-drop-menu,
+i.fas.fa-chevron-down,
+.post-content.blog_total_counter,
+.pagination-goto,
+.d-inline,
+ .my-menu.for-mobile.d-none.d-md-inline, 
+.pc-menu,
+[src="//beon.fun/i/offline.png"],
+[src="//beon.fun/i/online.png"],
+[src="/i/user.png"],
+[src="/i/blog.png"],
+.left-menu .left-menu-text .readertime + a + a,
+[src="//beon.fun/i/design-off.png"]
+ {
+display: none !important;
+}
+
+.bottombg{
+        background: #d1d1d1;
+        position: fixed;
+        left: 50px;
+        bottom: 10px;
+        height: 28px;
+        width: 16vw;
+        max-width: 50vw;
+        z-index: 99999;
+        border: 1px solid;
+        resize: both;
+        overflow: auto;
+}
+
+.left-menu .mt-2.text-right {
+    text-align: unset !important;
+}
+
+* {
+transition: .2s;
+        outline: 0;
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled).active:focus,
+.btn-outline-primary:not(:disabled):not(.disabled):active:focus,
+.show>.btn-outline-primary.dropdown-toggle:focus {
+    box-shadow: none !important;
+}
