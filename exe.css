@@ -2,9 +2,194 @@
 div, a { font-family: 'Play' !important; text-decoration: none !important; }
  @media (min-width: 700px) {
 
+.left-menu__user-notification.left-menu__unread-message form input {
+    font-size: 12px;
+}
+.left-menu__user-notification.left-menu__unread-message form {
+        position: relative;
+        top: 2px;
+        right: 8px;
+        font-size: 18px;
+        padding: 0;
+        width: 100%;
+        text-align: right;
+}
+.left-menu__user-notification.left-menu__unread-message p:last-of-type  {
+        width: calc(100% - 89px);
+        height: 91px;
+        overflow-x: hidden;
+        overflow-y: auto;
+        border-bottom: 1px solid #999999;
+        background: #fff;
+        margin: -1px 0 0 0;
+        align-content: center;
+line-height: 1.5;
+}
+
+.left-menu__user-notification.left-menu__unread-message h3 + p {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin: 2px -6px 0px -6px !important;
+        padding: 0px 12px 2px 6px !important;
+        border-bottom: 1px solid #999;
+        width: calc(100% + 12px);
+        position: relative;
+        box-shadow: inset 0 -1px 0 #fff;
+    }
+.left-menu__user-notification.left-menu__unread-message .post-title-date.pl-0 {
+    font-size: 10px;
+}
+.left-menu__user-notification.left-menu__unread-message img {
+        object-fit: cover;
+        width: 89px;
+        height: 89px;
+        border: 5px solid lightblue;
+        box-shadow: -1px 1px 0 #999, 0px 0px 0 1px #999;
+    }
+
+
+.left-menu__user-notification.left-menu__unread-message h3.left-menu-text:after {
+        content: 'сообщения';
+        font-size: 12px;
+        letter-spacing: 0;
+    }
+.left-menu__user-notification.left-menu__unread-message h3.left-menu-text {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 30px;
+        background: url(https://win98icons.alexmeub.com/icons/png/message_envelope_open-1.png) no-repeat 9px 6px, linear-gradient(46deg, lightblue 60%, #f0f0f0) !important;
+        border-bottom: 1px solid #999 !important;
+        box-shadow: 0px 1px 0 #fff;
+        text-transform: lowercase;
+        color: black;
+        font-size: 0px;
+        padding: 8px 34px !important;
+        margin: 0 !important;
+}
+
+.notifications__comments h3.left-menu-text:after {
+        content: 'комментарии';
+        font-size: 12px;
+        letter-spacing: 0;
+}
+.notifications__comments .right-menu-text a  {
+    color: #999;
+}
+ .notifications__comments::-webkit-scrollbar {
+        width: 0;
+}
+.notifications__comments h3 + p.left-menu-text {
+        margin: 10px 0 0 0  !important; 
+}
+.left-menu__user-notification .left-menu-text {
+        border: unset !important;
+ }
+
+
+.post-content.post-page h1 {
+        position: absolute;
+        z-index: 99;
+        margin: 8px 0px 0px 26px;
+}
+
+ 
+
+
+
+
+
+.blog__about > h3 + .text-center:before {
+        content: '';
+        width: 170px;
+        height: 170px;
+        margin: 11px 11px;
+        position: absolute;
+        background: url(https://i0.beon.fun/24/36/3624/profile/0.png) no-repeat top center / contain;
+        z-index: 10;
+        transition: 0.2s;
+    animation-delay: 1s !important;
+  animation: 4s glitch;
+  animation-fill-mode: forwards;
+  animation-timing-function: steps(2, end);
+  animation-iteration-count: infinite;
+  --slice-1: inset(80% 0px 0 0);
+  --slice-2: inset(50% -6px 30% 0);
+  --slice-3: inset(10% -6px 85% 0);
+  --slice-4: inset(40% -6px 43% 0);
+  --slice-5: inset(80% -6px 30% 0);
+  --slice-6: inset(100% 0px 0 0);
+}
+
+@keyframes glitch {
+  0% {
+    clip-path: var(--slice-6);
+    transform: translate(-10px, -10px);
+  }
+  5% {
+    clip-path: var(--slice-1);
+    transform: translate(-10px, -10px);
+  }
+  10% {
+    clip-path: var(--slice-3);
+    transform: translate(10px, 10px);
+  }
+  15% {
+    clip-path: var(--slice-1);
+    transform: translate(-10px, 10px);
+  }
+  20% {
+    clip-path: var(--slice-3);
+    transform: translate(0px, 5px);
+  }
+  25% {
+    clip-path: var(--slice-2);
+    transform: translate(-5px, 0px);
+  }
+  30% {
+    clip-path: var(--slice-3);
+    transform: translate(5px, 0px);
+  }
+  35% {
+    clip-path: var(--slice-4);
+    transform: translate(5px, 10px);
+  }
+  40% {
+    clip-path: var(--slice-2);
+    transform: translate(-10px, 10px);
+  }
+  45% {
+    clip-path: var(--slice-5);
+    transform: translate(20px, -10px);
+  }
+  50% {
+    clip-path: var(--slice-2);
+    transform: translate(-5px, 0px);
+  }
+  55% {
+    clip-path: var(--slice-3);
+    transform: translate(0px, 0px);
+  }
+  60% {
+    clip-path: var(--slice-6);
+    transform: translate(0px, 0px);
+  }
+  100% {
+    clip-path: var(--slice-6);
+    transform: translate(0px, 0px);
+  }
+}
+
+
+
+
+
+
 .blog__about .text-center {
     position: fixed;
-        left: 0;
+right: 0;
         top: 10vh;
         width: 20vw;
 z-index: 99999;
@@ -23,7 +208,7 @@ z-index: 99999;
 .user::before {
     display: none;
 }
-.user.post-title-user {
+.post-content .user.post-title-user {
         font-size: 14px;
         max-width: calc(50% - 100px);
         white-space: nowrap;
@@ -33,11 +218,11 @@ z-index: 99999;
         margin: 2px 0px 0 0;
 }
 
-a.user.post-title-user::after {
+.post-content a.user.post-title-user::after {
     content: '.txt';
 
 }
-a.user.post-title-user::before {
+.post-content a.user.post-title-user::before {
     content: '—';
     display: inline-block !important;
         margin: 0 8px 0 0px;
@@ -107,64 +292,113 @@ a.user.post-title-user::before {
 
 [action="/search"] {
         position: fixed;
-        right: 1vw;
-        top: 50%;
-        width: 18vw;
+        right: 2vw;
+        top: calc(370px + 10vh);
+        width: 16vw;
         height: 80px;
-        border: 1px solid;
         resize: both;
         overflow: auto;
-        background: #d1d1d1;
         z-index: 999999;
         font-size: 12px;
+        padding: 40px 0px 0 10px;
+        background: url(https://i1.beon.fun/24/36/3624/39/1176139/01.png) no-repeat top -1px left -1px / 99px, url(https://i1.beon.fun/24/36/3624/38/1176138/01.jpg) no-repeat top -1px right -1px / 489px, #f0f0f0;
+        background-size: 99px, 16vw 32px;
+        outline: 1px solid #999999;
+        box-shadow: 3px 3px 0 rgba(50, 50, 50, .1);
 }
     #beon-fnplayer {
         position: fixed;
-        right: 2vw;
-        top: 20vh;
+        left: 2vw;
+        bottom: calc(80px + 5vw);
         width: 16vw;
         height: 80px;
-        border: 1px solid;
         resize: both;
         overflow: auto;
+        z-index: 9999;
+        padding: 30px 10px 0 10px;
+        background: url(https://i1.beon.fun/24/36/3624/47/1176147/02.png) no-repeat top -1px left -1px / 139px, url(https://i1.beon.fun/24/36/3624/38/1176138/01.jpg) no-repeat top -1px right -1px / 489px, #f0f0f0;
+        background-size: 139px, 16vw 32px;
+        outline: 1px solid #999999;
+        box-shadow: 3px 3px 0 rgba(50, 50, 50, .1);
     }
 
+ 
 
+ .left-menu__user-notification .left-menu-text {
+        border-left: unset;
+}
+ .left-menu__user-notification.left-menu__unread-notifications h3:after {
+    content: 'уведомления';
+    font-size: 12px;
+letter-spacing: 0;
+}
+
+.left-menu__user-notification.left-menu__unread-notifications h3 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 30px;
+        background: url(https://win98icons.alexmeub.com/icons/png/msg_information-2.png) no-repeat 9px 6px, linear-gradient(46deg, lightblue 60%, #f0f0f0) !important;
+        border-bottom: 1px solid #999 !important;
+        box-shadow: 0px 1px 0 #fff;
+        text-transform: lowercase;
+        color: black;
+        font-size: 0px;
+        padding: 8px 34px !important;
+        border-left: unset;
+}
     .left-menu__user-notification.left-menu__unread-notifications {
         position: fixed;
         left: 1vw;
         top: calc(37vh + 200px);
         width: 18vw;
-        height: 10vh;
         border: 1px solid;
         resize: both;
         overflow: auto;
         background: #d1d1d1;
         z-index: 9999;
+background: #f0f0f0;
+        border: 1px solid #ffffff;
+        outline: 1px solid #999999;
+        box-shadow: 3px 3px 0 rgba(50, 50, 50, .1);
+        padding: 30px 0px 0px 10px;
+        text-transform: lowercase;
     }
-    .notifications__comments {
-        background: #d1d1d1;
+.notifications__comments {
         position: fixed;
         left: 2vw;
         top: calc(25vh + 150px);
-        height: 12vh;
         width: 17vw;
         z-index: 999;
-        border: 1px solid;
         resize: both;
         overflow: auto;
+        background: #f0f0f0;
+        border: 1px solid #ffffff;
+        outline: 1px solid #999999;
+        box-shadow: 3px 3px 0 rgba(50, 50, 50, .1);
+        padding: 30px 0px 0px 10px;
+        text-transform: lowercase;
     }
-    .left-menu__user-notification.left-menu__unread-message {
-        background: #d1d1d1;
+.left-menu__user-notification.left-menu__unread-message {
         position: fixed;
-        left: 1vw;
+        left: 3vw;
         top: 100px;
-        height: 25vh;
-        width: 17vw;
-        border: 1px solid;
+        max-height: 31vh;
+        width: 16vw;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
         resize: both;
         overflow: auto;
         z-index: 999;
+        background: #f0f0f0;
+        border: 1px solid #ffffff;
+        outline: 1px solid #999999;
+        box-shadow: 3px 3px 0 rgba(50, 50, 50, .1);
+        padding: 30px 0px 0px 0px;
+        align-content: flex-start;
+        overflow-x: hidden;
     }
 
 .avatar-select-label-selected {
@@ -308,11 +542,6 @@ display: flex;
 
 
 
-.post-content.post-page h1 {
-        position: absolute;
-        z-index: 99;
-        margin: 8px 0px 0px 26px;
-}
 .post-content.post-page .small-text + div {
         position: absolute;
         z-index: 9999;
@@ -330,16 +559,7 @@ display: flex;
         z-index: 999;
         color: #d0d0d0;
 }
-.post-content.post-page h1 {
-        font-size: 14px;
-        width: calc(100% - 100px);
-        height: 25px;
-        display: block;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        color: black;
-}
+
 
 .comment-base .mt-3 {
     display: flex;
@@ -661,6 +881,10 @@ padding: 2px 6px 0px 6px;
         overflow: hidden;
         height: 84px;
 }
+
+
+
+.post-content.post-page h1,
 .post-title {
     font-size: 14px;
 max-width: 50%;
@@ -670,6 +894,9 @@ max-width: 50%;
         overflow: hidden;
         text-overflow: ellipsis;
 color: black;
+}
+.post-content.post-page h1 {
+    max-width: calc(100% - 110px);
 }
 .post-header {
         background: url(https://win98icons.alexmeub.com/icons/png/message_file-1.png) no-repeat left 10px center, linear-gradient(45deg, lightblue, #f0f0f0);
@@ -813,14 +1040,14 @@ content: 'утилиты';
        font-size: 14px;
 }
 
-    .left-menu .left-menu-text a:after {
+    .left-menu:not(.notifications__comments)  .left-menu-text a::after {
         content: '◉';
         position: absolute;
         left: 6px;
         font-size: 14px;
     }
 
-.left-menu .left-menu-text a:before {
+.left-menu:not(.notifications__comments)  .left-menu-text a::before {
         content: '';
         position: absolute;
         width: 7px;
@@ -1135,6 +1362,35 @@ div#app {
     max-height: calc(100% - 100px);
 }
 
+.notifications__comments .left-menu-text a:hover {
+    color: black !important;
+}
+.notifications__comments p.left-menu-text {
+        padding: 0 !important;
+        border: unset;
+}
+
+
+ 
+.left-menu .notifications__comments .left-menu-text a:before,
+.left-menu .notifications__comments .left-menu-text a::after {
+        display: none !important;
+}
+.notifications__comments h3.left-menu-text {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 30px;
+        background: url(https://win98icons.alexmeub.com/icons/png/file_lines-1.png) no-repeat 9px 6px, linear-gradient(46deg, lightblue 60%, #f0f0f0) !important;
+        border-bottom: 1px solid #999 !important; 
+        box-shadow: 0px 1px 0 #fff;
+        text-transform: lowercase;
+        color: black;
+        font-size: 0px;
+        padding: 8px 34px !important;
+        border-left: unset;
+    }
 
 
 
@@ -1148,6 +1404,7 @@ div#app {
         margin-bottom: 10px;
 }
 
+.post-content.post-page .user.post-title-user,
 [src="/i/offline.png"],
 [src="/i/online.png"],
 .fas.fa-lock-open,
@@ -1204,4 +1461,5 @@ transition: .2s;
 .btn-outline-primary:not(:disabled):not(.disabled):active:focus,
 .show>.btn-outline-primary.dropdown-toggle:focus {
     box-shadow: none !important;
+
 }
