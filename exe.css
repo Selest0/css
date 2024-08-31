@@ -5,6 +5,11 @@ div, a { font-family: 'Play' !important; text-decoration: none !important; }
     display: none !important;
 }
 
+.blog__csrf-error {
+    background: #f0f0f0 !important;
+    box-shadow: none !important;
+}
+
 .blog__tags a {
     font-size: 12px !important;
 }
@@ -1893,6 +1898,7 @@ min-width: auto;
         position: fixed;
         padding: 3px 9px;
 }
+ 
 .left-menu:hover:after {
         background: #e0e0e0;
  }
