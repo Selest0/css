@@ -4,6 +4,10 @@ div, a { font-family: 'Play' !important; text-decoration: none !important; }
  .my-menu.for-mobile.d-none.d-md-inline {
     display: none !important;
 }
+
+.blog__tags a {
+    font-size: 12px !important;
+}
  
 .bottombg [onclick="window.scroll({top: 0,behavior: 'smooth'})"],
 .bottombg #page__rendertime.p-1,
