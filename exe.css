@@ -2009,6 +2009,7 @@ display: none;
 .left-menu__user-notification h3 {
         box-shadow: inset 1px 0px 0 0px #cacaca, inset -1px 0px 0 0px #cacaca !important;
 }
+ 
 [action="/search"] > input {
 min-height: 26px;
         font-size: 12px;
