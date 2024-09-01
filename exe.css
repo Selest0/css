@@ -88,6 +88,10 @@ margin: 11px 0px 0px -23px;
         border: 1px solid #999 !important;
  }
 
+.modal-backdrop.show {
+    z-index: 999999;
+}
+
  .modal-body {
     background: #f0f0f0;
 }
@@ -98,7 +102,6 @@ margin: 11px 0px 0px -23px;
 #addimagemodal {
     background: #add8e64a !important; 
     z-index: 9999999;
-    padding-top: 100px;
 }
 .modal-content {
     border-radius: 0;
