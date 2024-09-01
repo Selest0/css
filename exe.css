@@ -866,7 +866,7 @@ display: flex;
 
 .post-content.post-page .small-text + div {
     position: relative;
-    z-index: 9999;
+    z-index: 999;
     height: 27px;
     width: max-content;
     order: 1;
