@@ -1,6 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
 div, a { font-family: 'Play' !important; text-decoration: none !important; }
  
+.content  h1 {
+    overflow: hidden;
+    font-size: 16px;
+}
+
+.comment-box__message-partial.comment-content {
+    margin: 0px 0px 20px 0px;
+    background: #f0f0f0;
+    color: #999;
+    padding: 0 4px;
+    border: 1px solid #ffffff;
+    outline: 1px solid #999999;
+    text-transform: lowercase;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+}
+.comment-box__message-partial.comment-content a {
+color: lightblue;
+}
+
  .modal-content {
     max-height: 50vw;
     overflow: auto;
@@ -44,7 +65,7 @@ width: 0;
     list-style-position: inside; 
 }
 .left-menu:not(.notifications__comments)  .left-menu-text a::marker {
-    content: '◉ '; 
+    content: '◉ '; 
     color: black; 
     font-size: 14px; 
         transition: 2s;
@@ -1052,6 +1073,7 @@ h3.left-menu-text:after {
         overflow: hidden;
         word-break: break-all;
 margin: unset;
+    margin-bottom: 4px;
 }
 
 .comment-text + .post-opt.mt-3 a:hover,
@@ -1769,10 +1791,6 @@ div#app {
     font-size: 8px;
 }
 
-.comment-content .comment-row .comment-text {
-    font-size: 13px;
-}
-
 .comment-header .post-title-date + a {
     font-size: 10px;
 }
@@ -1989,4 +2007,13 @@ min-height: 26px;
 
 .navbar + .crumbs > a:first-child, .navbar + .crumbs span.crumb-item:first-child {
 display: none;
+}
+
+#newpostform [type="submit"] {
+    margin: 10px 0px;
+}
+
+.comment-content .comment-row .comment-text,
+.post-row > div.post-text {
+    font-size: 13px;
 }
