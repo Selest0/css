@@ -270,6 +270,10 @@ height: 0;
 .btn:not(:disabled):not(.disabled) {
     border-radius: 0;
         color: black;
+     box-shadow: none !important;
+    border: 1px solid #d0d0d0 !important;
+    background: unset !important;
+    background-color: #f0f0f0 !important;
 }
 .post-content > h1 + [style="margin-left: 5px;"] {
 all: unset;
