@@ -1,6 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
 div, a { font-family: 'Play' !important; text-decoration: none !important; }
  
+ .modal-content {
+    max-height: 50vw;
+    overflow: auto;
+}
+ .modal-content::-webkit-scrollbar {
+width: 0;
+}
+
  .my-menu.for-mobile.d-none.d-md-inline {
     display: none !important;
 }
@@ -25,7 +33,6 @@ div, a { font-family: 'Play' !important; text-decoration: none !important; }
 [onclick="return showSpoiler(this)"] {
     color: lightblue;
 }
-
 
 [onclick="return showSpoiler(this)"]:hover {
     color: lightblue;
@@ -56,15 +63,14 @@ border-bottom: 1px dotted #d0d0d0;
 margin: 11px 0px 0px -23px;
 }
 
-
 #newpostform > form {
         border: 1px solid #999 !important;
  }
 
-.bottombg .modal-body {
+ .modal-body {
     background: #f0f0f0;
 }
-.bottombg .modal-body a {
+.modal-body a {
     color: black;
 }
 .modal-open .modal,
@@ -73,17 +79,17 @@ margin: 11px 0px 0px -23px;
     z-index: 9999999;
     padding-top: 100px;
 }
-.bottombg .modal-content {
+.modal-content {
     border-radius: 0;
     border: 1px solid #ffffff;
     outline: 1px solid #999999;
     box-shadow: 3px 3px 0 rgba(50, 50, 50, .1);
 }
-.bottombg .close span {
-        font-size: 0;
+.close span {
+        font-size: 0 !important;
 }
-.bottombg .modal-header .close {
-    background: url(https://i1.beon.fun/24/36/3624/44/1174644/44.png) no-repeat right;
+.modal-header .close {
+    background: url(https://i1.beon.fun/24/36/3624/44/1174644/44.png) no-repeat right !important;
         width: 24px;
         height: 24px;
     opacity: 1;
@@ -91,14 +97,14 @@ margin: 11px 0px 0px -23px;
         padding: 0;
 }
 
-.bottombg .modal-footer {
+ .modal-footer {
     border-radius: 0;
     background: lightblue;
         padding: 6px;
         border-top: 1px solid #999;
         box-shadow: inset 0px 1px 0 #fff;
 }
-.bottombg .modal-header {
+.modal-header {
         background: lightblue;
         padding: 6px !important;
         border-radius: 0;
@@ -198,7 +204,6 @@ transition: 0s;
 height: 0;
 }
 
-
 .bottombg {
     height: 0;
 }
@@ -232,7 +237,6 @@ height: 0;
 .textareabg #commentpreviewplace + p {
     margin: 2px 0 2px 4px;
 }
-
 
 .textareabg form {
         padding: 10px;
@@ -542,7 +546,6 @@ line-height: 1.5;
 .user::before {
     display: none;
 }
- 
 
 .post-content .user.post-title-user {
         font-size: 14px;
@@ -565,23 +568,23 @@ line-height: 1.5;
         margin: 0 8px 0 0px;
 }
  
-
 .menu__box .menu__item:hover {
         transition: 0s;
-        color: unset !important;
+         color: #000 !important;
 }
  .menu__box .menu__item {
-        text-align: left;
-        border: 1px solid #999999;
-        box-shadow: inset 1px 1px 1px 1px #fff;
-        transition: all 0.1s ease-in-out;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-        font-size: 12px !important;
-        height: 28px;
-        padding: 4px 30px 4px 12px;
-        border-bottom: 1px solid transparent;
-        color: #000 !important;
+    text-align: left;
+    border: 1px solid #999999;
+    box-shadow: inset 1px 1px 1px 1px #fff;
+    transition: all 0.1s ease-in-out;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 12px !important;
+    height: 28px;
+    padding: 4px 30px 4px 12px;
+    border-bottom: 1px solid transparent;
+    font-weight: 100;
+    color: #000 !important;
 }
 .menu__box {
         top: unset;
@@ -609,7 +612,6 @@ line-height: 1.5;
         right: 10px;
         top: 8px;
     }
-
 
 [action="/search"] {
         position: fixed;
@@ -644,8 +646,6 @@ line-height: 1.5;
         box-shadow: 3px 3px 0 rgba(50, 50, 50, .1);
         height: max-content;
     }
-
- 
 
  .left-menu__user-notification .left-menu-text {
         border-left: unset;
@@ -764,7 +764,6 @@ h1 + .alert,
         color: #474747;
         border-color: #add8e6;
         border-radius: 0;
-
 }
 
 .post-content.post-page .small-text + div > div > a  {
@@ -795,9 +794,6 @@ display: flex;
     font-size: unset !important;
         height: 25px;
 }
-
-
-
 
 .post-content.post-page {
     margin: 40px 20px 40px 20px !important;
@@ -915,15 +911,6 @@ html [type=button]:hover,
         transform: translateY(1px) !important;
         box-shadow: inset 1px 1px 0 #eee;
 }
-
-
-
-
-
-
-
-
-
  
  .post-content .post-opt a {
     color: black;
@@ -939,8 +926,6 @@ html [type=button]:hover,
         position: relative;
         display: flex;
 }
-
-
 
 h1 + .row {
     display: inline-block;
@@ -963,11 +948,6 @@ h4, .post-content.p-2 > .mb-3 {
     align-content: center;
     padding: 0 8px 0 10px;
 }
-
-
-
-
-
 
 [onclick="return showSpoiler(this)"] {
     text-transform: lowercase;
@@ -1001,7 +981,6 @@ h4, .post-content.p-2 > .mb-3 {
         justify-content: center;
 }
 
-
     .post-content .post-text a:not(.row.w-100.mt-3 a)  {
         color: lightblue !important;
 }
@@ -1021,7 +1000,6 @@ a.tag::after {
     color: white !important;
     letter-spacing: 0 !important;
 }
-
 
 .post-header a:hover {
 color: white !important; 
@@ -1046,7 +1024,6 @@ h3.left-menu-text:after {
 .comments_count a {
     color: black;
 }
-
 
 .comment-text + .post-opt.mt-3 a,
 .fast-quote,
@@ -1074,7 +1051,6 @@ h3.left-menu-text:after {
         max-height: 24px;
         overflow: hidden;
         word-break: break-all;
-
 margin: unset;
 }
 
@@ -1107,7 +1083,6 @@ margin: unset;
         text-transform: lowercase;
         font-size: 12px;
 }
-
 
 .post-opt.col-md-6.text-right {
     right: 0;
@@ -1165,9 +1140,6 @@ padding: 0;
         padding: 10px 0 0 0;
 }
 
-
-
-
 .post-header:after {
         content: '';
         width: 66px;
@@ -1193,8 +1165,6 @@ padding: 2px 6px 0px 6px;
         overflow: hidden;
         height: 84px;
 }
-
-
 
 .post-content.post-page h1,
 .post-title {
@@ -1305,13 +1275,11 @@ content: 'утилиты';
         margin: -10px 10px -8px 0px;
 }
 
-
 .left-menu__gift {
     content: url(https://i1.beon.fun/24/36/3624/7/1179607/gift.png);
     max-width: 22%;
     width: fit-content;
 }
-
 
 .left-menu a, body {
     color: black;
@@ -1323,8 +1291,7 @@ content: 'утилиты';
     color: #999;
 }
 
-
-   .left-menu .left-menu-text a {
+.left-menu .left-menu-text a {
     white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
@@ -1351,7 +1318,6 @@ font-size: 12px !important;
     content: 'О программе';
        font-size: 14px;
 }
-
 
 .blog__tags .left-menu-text {
  display: flex;
@@ -1515,7 +1481,6 @@ color: black;
 .navbar-expand-md>.container {
         padding-left: 15px;
     }
-
 
 .navbar-brand {
     font-size: 14px;
@@ -1684,7 +1649,6 @@ div#app {
         padding: 8px 34px !important;
         border-left: unset;
     }
-
 
 #csseditortext {
     height: 400px  !important;
