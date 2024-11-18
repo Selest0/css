@@ -6,6 +6,16 @@ div, a { font-family: 'Play' !important; text-decoration: none !important; }
     font-size: 16px;
 }
 
+  #commentpreviewplace .post-title-date + a,
+  #commentpreviewplace .post-title-date {
+    display: none;
+}
+
+.quotation  {
+    font-size: 12px;
+}
+
+
 .comment-box__message-partial.comment-content {
     margin: 0px 0px 20px 0px;
     background: #f0f0f0;
