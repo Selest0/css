@@ -52,7 +52,8 @@ width: 0;
 .blog__tags a {
     font-size: 12px !important;
 }
- 
+
+[src="/i/logo2-deer.png"],
 .bottombg [onclick="window.scroll({top: 0,behavior: 'smooth'})"],
 .bottombg #page__rendertime.p-1,
 .bottombg #footer.p-1,
