@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
 div, a { font-family: 'Play' !important; text-decoration: none !important; }
 
-.navbar.container-fluid {
+.navbar .container-fluid {
     margin: 0px 0 2px -16px;
 }
 
