@@ -1645,7 +1645,7 @@ div#app {
     box-shadow: 3px 3px 0 rgba(50, 50, 50, .1);
 
         position: fixed;
-        inset-area: center;
+position-area: center;
         padding: 0;
         width: 70vw;
         margin: 40px auto;
