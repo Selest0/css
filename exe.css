@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
 div, a { font-family: 'Play' !important; text-decoration: none !important; }
 
-.mb-3 .d-inline.font-weight-bold {
+.d-inline.font-weight-bold {
     display: block !important;
 }
 
